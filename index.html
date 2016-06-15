@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Atlas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/country.js"></script>
+    <script type="text/javascript" src="js/dragscroll.js"></script>
+  </head>
+  <body>
+    <video  autoplay id="bgvid" loop>
+      <source id='mp4Source'  type="video/mp4" />
+      <source id='oggSource'  type="video/ogg" />
+    </video>
+    <video  autoplay   id="previews" loop>
+      <source id='mp4Source'  type="video/mp4" />
+      <source id='oggSource'  type="video/ogg" />
+    </video>
+    <header>
+      <nav>
+        <ul class="clearfix">
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <a href="#" id="logo">Logo</a>
+      <section>
+        <span>PIN</span>
+        <span>|</span>
+        <span>ABC</span>
+        <span>|</span>
+        <span>X</span>        
+      </section>
+    </header>
+    <div id="slider" class="dragscroll" >
+      <ul id="countriesList" >
+      </ul>
+    </div>
+    <script>
+     (function(){
+        setBackgroundVideo("black","videos/greece 2.mp4");
+        addCountries(new Country("black","videos/israel 2.mp4","ogg", "Israel", "desc"));
+        addCountries(new Country("white","videos/china 2.mp4","ogg", "China", "desc"));
+        addCountries(new Country("black","videos/russia 2.mp4","ogg", "Russia", "desc"));
+        addCountries(new Country("black","videos/israel 2.mp4","ogg", "Israel", "desc"));
+        addCountries(new Country("white","videos/china 2.mp4","ogg", "China", "desc"));
+        addCountries(new Country("black","videos/russia 2.mp4","ogg", "Russia", "desc"));
+            addCountries(new Country("black","videos/israel 2.mp4","ogg", "Israel", "desc"));
+        addCountries(new Country("white","videos/china 2.mp4","ogg", "China", "desc"));
+        addCountries(new Country("black","videos/russia 2.mp4","ogg", "Russia", "desc"));
+            addCountries(new Country("black","videos/israel 2.mp4","ogg", "Israel", "desc"));
+        addCountries(new Country("white","videos/china 2.mp4","ogg", "China", "desc"));
+        addCountries(new Country("black","videos/russia 2.mp4","ogg", "Russia", "desc"));
+            addCountries(new Country("black","videos/israel 2.mp4","ogg", "Israel", "desc"));
+        addCountries(new Country("white","videos/china 2.mp4","ogg", "China", "desc"));
+        addCountries(new Country("black","videos/russia 2.mp4","ogg", "Russia", "desc"));
+            addCountries(new Country("black","videos/israel 2.mp4","ogg", "Israel", "desc"));
+        addCountries(new Country("white","videos/china 2.mp4","ogg", "China", "desc"));
+        addCountries(new Country("black","videos/russia 2.mp4","ogg", "Russia", "desc"));
+            addCountries(new Country("black","videos/israel 2.mp4","ogg", "Israel", "desc"));
+        addCountries(new Country("white","videos/china 2.mp4","ogg", "China", "desc"));
+        addCountries(new Country("black","videos/russia 2.mp4","ogg", "Russia", "desc"));
+        run();
+     })();
+    </script>
+  </body>
+</html>
