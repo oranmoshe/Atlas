@@ -16,14 +16,11 @@
   function run(){
    $.getJSON( "data/countries.json", function( data ) {
       $.each( data, function( key, value ) {
-        
+
          $('#countriesList').append('<li id=country'+ key +'><article><div class=title>'+value.title+'</div><div class=desc>'+value.desc+' ⋆ '+ (key*7+50) +'km</div></article></li>');
          $('#countriesList li article').css("color",value.color);
-         $('#country'+ key + ' div.title').first().mouseout(function(){
-            $("#previews").css('visibility','hidden');
-            $('#countriesList li article').css("color", mainColor);
-            $('body').css("color", mainColor);
-         }).mouseover('mouseover',function(){
+         $('#country'+ key + ' div.title').first()
+            .mouseover('mouseover',function(){
             $('#countriesList li article').css("color", value.color);
             $('body').css("color", value.color);
             $("#previews").attr("src",value.mp4);
@@ -44,7 +41,7 @@
               $("#iframeHeader").css("background-color",value.background);
                $("#iframeHeader span").css("color",textColor);
               $(fadeSelector).fadeOut();
-            });  
+            });
         });
 
           $(".close").click(function(){
@@ -55,7 +52,7 @@
                 $("#iframeHeader").removeClass("transparent_block");
                 $(fadeSelector).fadeOut();
 
-              });  
+              });
           });
 
       });
