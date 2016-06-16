@@ -1,10 +1,17 @@
 @font-face {
-    font-family: SabonLTStd-Italic;
+    font-family: Sabon;
+    font-style: italic;
     src: url(../Sabon/SabonLTStd-Italic.otf);
 }
 @font-face {
-    font-family: ALRIGHTSANS;
+    font-family: Alright;
+    font-weight: normal;
     src: url(../AlrightSans/ALRIGHTSANS-MEDIUM-V3.OTF);
+}
+@font-face {
+    font-family: Alright;
+    font-weight: bold;
+    src: url(../AlrightSans/ALRIGHTSANS-BOLD-V3.OTF);
 }
 *{
     -webkit-user-select: none;
@@ -22,7 +29,7 @@ body {
 header{
   position: relative;
   height: 200px;
-  font-family: ALRIGHTSANS;
+  font-family: Alright;
 }
 header nav{
   position: absolute;
@@ -126,7 +133,7 @@ video#previews {
 
 #slider {
     text-align: center;
-    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-family: Alright, Arial Narrow, sans-serif;
     font-weight:100;
     width: 100%;
     font-size: 1.2rem;
@@ -158,18 +165,20 @@ body.light {
   font-size: 3rem;
   letter-spacing: .3rem;
   padding-bottom: 50px;
-  font-family: ALRIGHTSANS;
+  font-family: Alright;
 }
 #slider li .title{
   height: 70px;
   font-size: 40px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 #slider li .country{
        letter-spacing: -0.8px;
   margin-top: -18px;
   font-size: 15px;
-  font-family: SabonLTStd-Italic;
+  font-family: Sabon;
+  font-style: italic;
 }
 iframe{
     position: fixed;
