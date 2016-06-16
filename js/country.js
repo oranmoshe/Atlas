@@ -34,7 +34,11 @@
             var fadeSelector = (!(value.background=='white')?'#fadeBlack':'#fadeWhite');
             var textColor = (!(value.background=='white')?'white':'black');
             $(fadeSelector).fadeIn(500, function() {
-              $("iframe").attr("src",value.url);
+              if(value.url.length>0){
+                $("iframe").attr("src",value.url);
+              }else{
+                $("iframe").attr("src",'video.html?vid='+key);
+              }
               $("iframe").css("visibility","visible");
               $("#iframeHeader").css("visibility","visible");
               $("#iframeHeader").css("background-color",value.background);
