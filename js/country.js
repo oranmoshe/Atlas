@@ -10,7 +10,6 @@
     mainVideo = src;
     mainColor = color;
     $("#bgvid").attr("src",src);
-    $('#countriesList li').css("color",color);
   }
   // run app
   function run(){
@@ -18,11 +17,15 @@
       $.each( data, function( key, value ) {
 
          $('#countriesList').append('<li id=country'+ key +'><article><div class=title>'+value.title+'</div><div class=country>'+value.country+' ⋆ '+ (key*7+50) +'km</div></article></li>');
-         $('#countriesList li article').css("color",value.color);
          $('#country'+ key + ' div.title').first()
             .mouseover('mouseover',function(){
-            $('#countriesList li article').css("color", value.color);
-            $('body').css("color", value.color);
+            if (value.color == 'black') {
+                $("body").removeClass("dark")
+                $("body").addClass("light")
+            } else {
+                $("body").removeClass("light")
+                $("body").addClass("dark")
+            }
             $("#previews").attr("src",value.mp4);
             $("#previews").css('visibility','visible');
          });
@@ -38,8 +41,7 @@
               }
               $("iframe").css("visibility","visible");
               $("#iframeHeader").css("visibility","visible");
-              $("#iframeHeader").css("background-color",value.background);
-               $("#iframeHeader span").css("color",textColor);
+
               $(fadeSelector).fadeOut();
             });
         });

@@ -124,23 +124,30 @@ video#previews {
    opacity: .5;
 }
 
-#slider { 
-  text-align: center;
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
-  color: white;
-  width: 100%;
-  font-size: 1.2rem;
-  top:200px;
-  /* Firefox */
-height: -moz-calc(100% - 200px);
-/* WebKit */
-height: -webkit-calc(100% - 200px);
-/* Opera */
-height: -o-calc(100% - 200px);
-/* Standard */
-height: calc(100% - 200px);
- overflow: scroll; position: absolute;
+#slider {
+    text-align: center;
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100;
+    width: 100%;
+    font-size: 1.2rem;
+    top:200px;
+    /* Firefox */
+  height: -moz-calc(100% - 200px);
+  /* WebKit */
+  height: -webkit-calc(100% - 200px);
+  /* Opera */
+  height: -o-calc(100% - 200px);
+  /* Standard */
+  height: calc(100% - 200px);
+   overflow: scroll; position: absolute;
+}
+
+body.dark {
+    color: white;
+}
+
+body.light {
+    color: black;
 }
 #slider ul{
   padding: 0px;
