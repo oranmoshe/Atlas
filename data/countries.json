@@ -4,8 +4,8 @@
 		"background":"black",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"ogg",
-		"title":"Denmark",
-		"desc":"Hyggelish",
+		"country":"Denmark",
+		"title":"Hyggelish",
 		"url":""
 	},
 	{
@@ -13,8 +13,8 @@
 		"background":"black",
 		"mp4":"videos/turkey 2.mp4",
 		"ogg":"ogg",
-		"title":"Turkey",
-		"desc":"The sounds of Turkey",
+		"country":"Turkey",
+		"title":"The sounds of Turkey",
 		"url":"../turkey/index.html"
 	},
 	{
@@ -22,8 +22,8 @@
 		"background":"white",
 		"mp4":"videos/russia 2.mp4",
 		"ogg":"",
-		"title":"Morocco",
-		"desc":"Oumaima",
+		"country":"Morocco",
+		"title":"Oumaima",
 		"url":""
 	},
 	{
@@ -31,8 +31,8 @@
 		"background":"black",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"",
-		"title":"Iran",
-		"desc":"Iran Live",
+		"country":"Iran",
+		"title":"Iran Live",
 		"url":""
 	},
 	{
@@ -40,8 +40,8 @@
 		"background":"white",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
+		"country":"Israel",
 		"title":"Israel",
-		"desc":"Israel",
 		"url":""
 	},
 	{
@@ -49,8 +49,8 @@
 		"background":"white",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
-		"title":"USA",
-		"desc":"Discovering Average Joe & Plain Jane",
+		"country":"USA",
+		"title":"Discovering Average Joe & Plain Jane",
 		"url":""
 	},
 	{
@@ -58,8 +58,8 @@
 		"background":"white",
 		"mp4":"videos/russia 2.mp4",
 		"ogg":"",
-		"title":"Greece",
-		"desc":"The Divided Line",
+		"country":"Greece",
+		"title":"The Divided Line",
 		"url":""
 	},
 	{
@@ -67,8 +67,8 @@
 		"background":"white",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"",
-		"title":"Israel",
-		"desc":"Dead sea",
+		"country":"Israel",
+		"title":"Dead sea",
 		"url":""
 	},
 	{
@@ -76,8 +76,8 @@
 		"background":"white",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
-		"title":"Brazil",
-		"desc":"Made in Brazil",
+		"country":"Brazil",
+		"title":"Made in Brazil",
 		"url":""
 	},
 	{
@@ -85,8 +85,8 @@
 		"background":"white",
 		"mp4":"videos/russia 2.mp4",
 		"ogg":"",
-		"title":"Portugal",
-		"desc":"The Ocean Nation",
+		"country":"Portugal",
+		"title":"The Ocean Nation",
 		"url":""
 	},
 	{
@@ -94,8 +94,8 @@
 		"background":"white",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"",
-		"title":"SOUTH KOREA",
-		"desc":"One day in Seoul",
+		"country":"SOUTH KOREA",
+		"title":"One day in Seoul",
 		"url":""
 	},
 	{
@@ -103,8 +103,8 @@
 		"background":"white",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
-		"title":"China",
-		"desc":"Abundance of Fog",
+		"country":"China",
+		"title":"Abundance of Fog",
 		"url":""
 	},
 	{
@@ -112,8 +112,8 @@
 		"background":"white",
 		"mp4":"videos/russia 2.mp4",
 		"ogg":"",
-		"title":"Russia",
-		"desc":"Kaleidoscope",
+		"country":"Russia",
+		"title":"Kaleidoscope",
 		"url":""
 	},
 	{
@@ -121,8 +121,8 @@
 		"background":"white",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"",
-		"title":"ITALY",
-		"desc":"\"CHE BELLA!\"",
+		"country":"ITALY",
+		"title":"\"CHE BELLA!\"",
 		"url":""
 	},
 	{
@@ -130,8 +130,8 @@
 		"background":"white",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
-		"title":"Mexico",
-		"desc":"Flame",
+		"country":"Mexico",
+		"title":"Flame",
 		"url":""
 	},
 	{
@@ -139,8 +139,8 @@
 		"background":"white",
 		"mp4":"videos/russia 2.mp4",
 		"ogg":"",
-		"title":"south korea",
-		"desc":"From tradition to capitalism",
+		"country":"south korea",
+		"title":"From tradition to capitalism",
 		"url":""
 	},
 	{
@@ -148,8 +148,8 @@
 		"background":"white",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"",
-		"title":"Greece",
-		"desc":"land of dualities",
+		"country":"Greece",
+		"title":"land of dualities",
 		"url":""
 	},
 	{
@@ -157,8 +157,8 @@
 		"background":"white",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
-		"title":"Japan",
-		"desc":"Untraceable",
+		"country":"Japan",
+		"title":"Untraceable",
 		"url":""
 	}
 ]

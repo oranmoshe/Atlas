@@ -1,10 +1,22 @@
 @font-face {
-    font-family: SabonLTStd-Italic;
+    font-family: Sabon;
+    font-style: italic;
     src: url(../Sabon/SabonLTStd-Italic.otf);
 }
 @font-face {
-    font-family: ALRIGHTSANS;
+    font-family: Sabon;
+    font-weight: normal;
+    src: url(../Sabon/SABONLTSTD-ROMAN.OTF);
+}
+@font-face {
+    font-family: Alright;
+    font-weight: normal;
     src: url(../AlrightSans/ALRIGHTSANS-MEDIUM-V3.OTF);
+}
+@font-face {
+    font-family: Alright;
+    font-weight: bold;
+    src: url(../AlrightSans/ALRIGHTSANS-BOLD-V3.OTF);
 }
 *{
     -webkit-user-select: none;
@@ -19,10 +31,15 @@ body {
   overflow: hidden;
   height: 100%;
 }
+
+body.about {
+    background-color: #fff;
+    overflow: auto;
+}
 header{
   position: relative;
   height: 200px;
-  font-family: ALRIGHTSANS;
+  font-family: Alright;
 }
 header nav{
   position: absolute;
@@ -36,7 +53,15 @@ header nav ul{
 }
 header nav ul li{
   float: right;
-  margin-right:20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+.sort img {
+  height: 25px;
+  margin-bottom: -7px;
 }
 
 header section{
@@ -46,7 +71,7 @@ header section{
   bottom: 50px;
 }
 
-header a#logo{
+#logo{
   position: absolute;
   display: block;
   top:100px;
@@ -54,12 +79,20 @@ header a#logo{
   left: 100px;
   color:black;
 }
+<<<<<<< HEAD
 .close{
     position: relative;
     left: 100px;
     top: 10px;
     width:100px;
 }
+=======
+
+#logo img {
+  height: 47px;
+}
+
+>>>>>>> origin/master
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -117,23 +150,30 @@ video#previews {
    opacity: .5;
 }
 
-#slider { 
-  text-align: center;
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
-  color: white;
-  width: 100%;
-  font-size: 1.2rem;
-  top:200px;
-  /* Firefox */
-height: -moz-calc(100% - 200px);
-/* WebKit */
-height: -webkit-calc(100% - 200px);
-/* Opera */
-height: -o-calc(100% - 200px);
-/* Standard */
-height: calc(100% - 200px);
- overflow: scroll; position: absolute;
+#slider {
+    text-align: center;
+    font-family: Alright, Arial Narrow, sans-serif;
+    font-weight:100;
+    width: 100%;
+    font-size: 1.2rem;
+    top:200px;
+    /* Firefox */
+  height: -moz-calc(100% - 200px);
+  /* WebKit */
+  height: -webkit-calc(100% - 200px);
+  /* Opera */
+  height: -o-calc(100% - 200px);
+  /* Standard */
+  height: calc(100% - 200px);
+   overflow: scroll; position: absolute;
+}
+
+body.dark {
+    color: white;
+}
+
+body.light {
+    color: black;
 }
 #slider ul{
   padding: 0px;
@@ -142,20 +182,22 @@ height: calc(100% - 200px);
   list-style: none;
   margin: 0 auto;
   font-size: 3rem;
-  text-transform: uppercase;
   letter-spacing: .3rem;
   padding-bottom: 50px;
-  font-family: ALRIGHTSANS;
+  font-family: Alright;
 }
 #slider li .title{
   height: 70px;
   font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-#slider li .desc{
+#slider li .country{
        letter-spacing: -0.8px;
-  margin-top: -10px;
+  margin-top: -18px;
   font-size: 15px;
-  font-family: SabonLTStd-Italic;
+  font-family: Sabon;
+  font-style: italic;
 }
 iframe{
     position: fixed;
@@ -228,6 +270,19 @@ iframe{
 .transparent_block{
     -webkit-animation: fadein 0.3s linear forwards;
     animation: fadein 0.3s linear forwards;
+}
+
+.running {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.running p {
+    font-size: 25pt;
+    font-family: Sabon, sans-serif;
+    color: rgb(32, 32, 32);
+    line-height: 1.4;
 }
 @keyframes fadeout {
   100% { 
