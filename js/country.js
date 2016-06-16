@@ -1,45 +1,3 @@
-
- class Country {
-    
-    constructor(color,mp4,ogg, title, desc) {
-      this.color = color;
-      this.mp4 = mp4;
-      this.ogg = ogg;
-      this.title = title;
-      this.desc = desc;
-    }
-    get color_() {
-      return this.color;
-    }
-    set color_ (str) {
-     this.color = str; 
-    }
-    get mp4_() {
-      return this.mp4;
-    }
-    set mp4_ (str) {
-     this.mp4 = str; 
-    }
-    get ogg_() {
-      return this.mp4;
-    }
-    set ogg_ (str) {
-     this.ogg = str;
-   }
-    get title_() {
-      return this.title;
-    }
-    set title_ (str) {
-     this.title = str;
-   }
-   get desc_() {
-      return this.desc;
-    }
-    set desc_ (str) {
-     this.desc = str;
-   }
-  }
-
   // add country
   var arrCountries = new Array();
   function addCountries(country){
@@ -56,20 +14,63 @@
   }
   // run app
   function run(){
-    // append countries
-    $.each( arrCountries, function( key, value ) {
-      $('#countriesList').append('<li id=country'+ key +'><article>'+value.title_+'<div>'+value.desc_+'</div></article></li>');
-       $('#countriesList li article').css("color",value.color_);
-       $('#country'+ key).mouseout(function(){
-          $("#previews").css('visibility','hidden');
-          $('#countriesList li article').css("color", mainColor);
-       }).mouseover('mouseover',function(){
-          $('#countriesList li article').css("color", value.color_);
-          $("#previews").attr("src",value.mp4_);
-          $("#previews").css('visibility','visible');
-       });
+   $.getJSON( "data/countries.json", function( data ) {
+      $.each( data, function( key, value ) {
+        
+         $('#countriesList').append('<li id=country'+ key +'><article><div class=title>'+value.title+'</div><div class=desc>'+value.desc+' ⋆ '+ (key*7+50) +'km</div></article></li>');
+         $('#countriesList li article').css("color",value.color);
+         $('#country'+ key + ' div.title').first().mouseout(function(){
+            $("#previews").css('visibility','hidden');
+            $('#countriesList li article').css("color", mainColor);
+            $('body').css("color", mainColor);
+         }).mouseover('mouseover',function(){
+            $('#countriesList li article').css("color", value.color);
+            $('body').css("color", value.color);
+            $("#previews").attr("src",value.mp4);
+            $("#previews").css('visibility','visible');
+         });
+
+         $('#country'+ key + ' div.title').click(function(){
+            var fadeSelector = (!(value.background=='white')?'#fadeBlack':'#fadeWhite');
+            var textColor = (!(value.background=='white')?'white':'black');
+            $(fadeSelector).fadeIn(500, function() {
+              if(value.url.length>0){
+                $("iframe").attr("src",value.url);
+              }else{
+                $("iframe").attr("src",'video.html?vid='+key);
+              }
+              $("iframe").css("visibility","visible");
+              $("#iframeHeader").css("visibility","visible");
+              $("#iframeHeader").css("background-color",value.background);
+               $("#iframeHeader span").css("color",textColor);
+              $(fadeSelector).fadeOut();
+            });  
+        });
+
+          $(".close").click(function(){
+              var fadeSelector = (!(value.background=='white')?'#fadeBlack':'#fadeWhite');
+              $(fadeSelector).fadeIn(500, function() {
+                $("iframe").css("visibility","hidden");
+                $("#iframeHeader").css("visibility","hidden");
+                $("#iframeHeader").removeClass("transparent_block");
+                $(fadeSelector).fadeOut();
+
+              });  
+          });
+
+      });
     });
 
 
+   // when opening iframe
+   $("#iframeHeader").click(function(){
+    if(!$(this).hasClass("transparent_block")){
+           $(this).addClass("transparent_block");
+        }
+        else{
+          $(this).removeClass("transparent_block");
+        }
+   });
+
+
   }
- 
