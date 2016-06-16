@@ -42,35 +42,60 @@
               $("iframe").css("visibility","visible");
               $("#iframeHeader").css("visibility","visible");
               $("#iframeHeader").css("background-color",value.background);
-               $("#iframeHeader span").css("color",textColor);
+              $("#iframeHeader span").css("color",textColor);
               $(fadeSelector).fadeOut();
             });  
+            $("#next").click(function(){
+              goNext();
+            });
+            $("#prev").click(function(){
+              goPrev();
+            });
+            $(".close").click(function(){
+              fadeOut(value.background);
+            });
+            $("#iframeHeader").click(function(event){              
+              if(event.target.id =="iframeHeader") {
+                iframeMenuToggle();
+              }
+            });
+
         });
-
-          $(".close").click(function(){
-              var fadeSelector = (!(value.background=='white')?'#fadeBlack':'#fadeWhite');
-              $(fadeSelector).fadeIn(500, function() {
-                $("iframe").css("visibility","hidden");
-                $("#iframeHeader").css("visibility","hidden");
-                $("#iframeHeader").removeClass("transparent_block");
-                $(fadeSelector).fadeOut();
-
-              });  
-          });
-
       });
     });
 
+   var iterator = 0;
+   function goNext(){
+    if(iterator<100){
+      $("iframe").attr("src",'video.html?vid='+(iterator+1));
+        iterator++;
+        console.log(iterator);
+      }
+   }
+   function goPrev(){
+     if(iterator>0){
+        $("iframe").attr("src",'video.html?vid='+(iterator-1));
+        iterator--;
+        console.log(iterator);
+      }
+   }
 
-   // when opening iframe
-   $("#iframeHeader").click(function(){
-    if(!$(this).hasClass("transparent_block")){
-           $(this).addClass("transparent_block");
+   function fadeOut(color){
+      var fadeSelector = (!(color=='white')?'#fadeBlack':'#fadeWhite');
+      $(fadeSelector).fadeIn(500, function() {
+        $("iframe").css("visibility","hidden");
+        $("#iframeHeader").css("visibility","hidden");
+        $("#iframeHeader").removeClass("transparent_block");
+        $(fadeSelector).fadeOut();
+      });  
+   }
+
+   function iframeMenuToggle(){
+        if(!$("#iframeHeader").hasClass("transparent_block")){
+          $("#iframeHeader").addClass("transparent_block");
         }
         else{
-          $(this).removeClass("transparent_block");
+          $("#iframeHeader").removeClass("transparent_block");
         }
-   });
-
-
-  }
+   }
+}

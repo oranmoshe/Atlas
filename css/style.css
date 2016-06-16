@@ -54,6 +54,12 @@ header a#logo{
   left: 100px;
   color:black;
 }
+.close{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width:100px;
+}
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -168,6 +174,12 @@ iframe{
   transition: 1s opacity;
   visibility: hidden;
 
+}
+#videoMenu{
+  position: relative;
+  width:200px;
+  margin: 0 auto;
+  text-align: center;
 }
 #fadeBlack{
     position: fixed;
