@@ -15,8 +15,7 @@
       $(document).ready(function(){
         $.getJSON( "data/countries.json", function( data ) {
           $.each( data, function( key, value ) {
-              var vid = getParameterByName("vid");
-              //var mp4 = data[vid].mp4;
+              var vid = getParameterByName("vid");              
               if(data[vid] != undefined){
                 $("#bgvid").attr("src",data[vid].mp4);
               }

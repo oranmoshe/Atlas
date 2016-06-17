@@ -30,8 +30,8 @@ body {
   background: #000; 
   overflow: hidden;
   height: 100%;
+  font-family: Alright;
 }
-
 body.about {
     background-color: #fff;
     overflow: auto;
@@ -58,19 +58,16 @@ header nav ul li{
   font-size: 9pt;
   font-weight: bold;
 }
-
-.sort img {
+.sort svg {
   height: 25px;
   margin-bottom: -7px;
 }
-
 header section{
   text-align: center;
   position: absolute;
   width: 100%;
   bottom: 50px;
 }
-
 #logo{
   position: absolute;
   display: block;
@@ -79,20 +76,9 @@ header section{
   left: 100px;
   color:black;
 }
-<<<<<<< HEAD
-.close{
-    position: relative;
-    left: 100px;
-    top: 10px;
-    width:100px;
-}
-=======
-
 #logo img {
   height: 47px;
 }
-
->>>>>>> origin/master
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -169,12 +155,19 @@ video#previews {
 }
 
 body.dark {
-    color: white;
+  color: white;
+}
+body.dark svg {
+  fill:white;
 }
 
 body.light {
-    color: black;
+  color: black;
 }
+body.light svg {
+  fill:black;
+}
+
 #slider ul{
   padding: 0px;
 }
@@ -210,18 +203,11 @@ iframe{
     z-index: 1;
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
-
   background-size: cover;
   -webkit-transition: 1s opacity;
   transition: 1s opacity;
   visibility: hidden;
 
-}
-#videoMenu{
-  position: relative;
-  width:200px;
-  margin: 0 auto;
-  text-align: center;
 }
 #fadeBlack{
     position: fixed;
@@ -254,30 +240,82 @@ iframe{
   overflow: hidden;
 }
 #iframeHeader{
+    padding: 0px;
+  margin: 0px;
   z-index: 1;
   position: fixed;
-  top: 0px;
   width: 100%;
+  top:0px;
   background-color: white;
-  height: 40px;
-  visibility: hidden;
+  height: 50px;
   border-bottom: 2px solid #343434;
 }
-.transparent_ {
-    -webkit-animation: fadeout 0.3s linear forwards;
-    animation: fadeout 0.3s linear forwards;
+#videoMenu{
+  font-family: Alright;
+  font-weight: bold;
+  position: relative;
+  width:200px;
+  margin: 0 auto;
+  top: 15px;
+  text-align: center;
+  height: 20px;
 }
-.transparent_block{
-    -webkit-animation: fadein 0.3s linear forwards;
-    animation: fadein 0.3s linear forwards;
+.close{
+  position: absolute;
+  left: 100px;
+  top: 10px;
 }
-
+.close svg{
+  height: 30px;   
+}
+#story{
+ top: 100px;
+  position: relative;
+  display: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+#story h2{
+ 
+  padding: 0px;
+  margin: 0px;
+}
+#story h1{
+  padding: 0px;
+  margin: 0px;
+}
+#story p{
+  padding: 0px;
+  margin: 0px;
+}
+#story div{
+  padding: 0px;
+  margin: 0px;
+}
+#iframeHeader h1{
+  font-size: 30px;
+  font-family: Sabon;
+}
+.hide{
+  visibility: hidden;
+}
+.show{
+  visibility: visible;
+}
+.animateClose {
+    -webkit-animation: fadeout 0.5s linear forwards;
+    animation: fadeout 0.5s linear forwards;
+}
+.animateOpen{
+    -webkit-animation: fadein 0.5s linear forwards;
+    animation: fadein 0.5s linear forwards;
+}
 .running {
     text-align: center;
     width: 75%;
     margin: 0 auto;
 }
-
 .running p {
     font-size: 25pt;
     font-family: Sabon, sans-serif;
@@ -301,7 +339,8 @@ iframe{
         /* Good browsers */
         opacity: 0.2;
 
-        height: 40px;
+        height: 50px;
+
    }
   0% {   /* IE 8 */
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -318,7 +357,7 @@ iframe{
         /* Good browsers */
         opacity: 0.8;
 
-        height: 300px;
+        height: 240px;
    }
 }
 @keyframes fadein {
@@ -338,7 +377,7 @@ iframe{
         /* Good browsers */
         opacity: 0.2;
 
-        height: 40px;
+        height: 50px;
    }
   100% {   /* IE 8 */
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -355,7 +394,8 @@ iframe{
         /* Good browsers */
         opacity: 0.8;
 
-        height: 300px;
+        height: 240px;
+
    }
 }
 

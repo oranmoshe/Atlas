@@ -1,7 +1,7 @@
 [
 	{
 		"color":"black",
-		"background":"black",
+		"background":"white",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"ogg",
 		"country":"Denmark",
@@ -81,12 +81,12 @@
 		"url":""
 	},
 	{
-		"color":"white",
+		"color":"black",
 		"background":"white",
-		"mp4":"videos/russia 2.mp4",
+		"mp4":"videos/PortugalThumbnailATLAS.mp4",
 		"ogg":"",
 		"country":"Portugal",
-		"title":"The Ocean Nation",
+		"title":"The Ocean's Nation",
 		"url":""
 	},
 	{
