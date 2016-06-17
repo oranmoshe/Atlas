@@ -1,200 +1,181 @@
-[
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/israel 2.mp4",
-		"ogg":"ogg",
-		"country":"Denmark",
-		"title":"Hyggelish",
-		"url":"",
-		"info":"An isometric three dimensional typeface inspired by Danish industrial design and the modularity of Lego. Explore the playful interactive lexicon of Danish words and expressions.",	
-		"by":"Matan Kalvo &amp; Gabriella Moses"
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/turkey 2.mp4",
-		"ogg":"ogg",
-		"country":"Turkey",
-		"title":"Cymbal",
-		"url":"../turkey/index.html",
-		"info":"A soundtrack inspired by the traditional instruments and flavors of Turkey. Create an interactive rhythm of beats and blends.",
-		"by":"Matan Kalvo &amp; Gabriella Moses"
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/russia 2.mp4",
-		"ogg":"",
-		"country":"Morocco",
-		"title":"Oumaima",
-		"url":"",
-		"info":"Animated graphics created from particles of sand and inspired by Moroccan tradition convey the story of a teenage girl. Surf through Islam, gender and tradition.",
-		"by":"Daniel Barash, Ori Zinger"
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/israel 2.mp4",
-		"ogg":"",
-		"country":"Iran",
-		"title":"Iran Live",
-		"url":"",
-		"info":"Installation, unedited footage obtained from security cameras throughout the nation. Edit your own version of Iran without bias.",
-		"by":"Ido Azaria &amp; Uri Or"
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/china 2.mp4",
-		"ogg":"",
-		"country":"Israel",
-		"title":"Israel",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/china 2.mp4",
-		"ogg":"",
-		"country":"USA",
-		"title":"Discovering Average Joe & Plain Jane",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/russia 2.mp4",
-		"ogg":"",
-		"country":"Greece",
-		"title":"The Divided Line",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/israel 2.mp4",
-		"ogg":"",
-		"country":"Israel",
-		"title":"Dead sea",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/china 2.mp4",
-		"ogg":"",
-		"country":"Brazil",
-		"title":"Made in Brazil",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/PortugalThumbnailATLAS.mp4",
-		"ogg":"",
-		"country":"Portugal",
-		"title":"The Ocean's Nation",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/israel 2.mp4",
-		"ogg":"",
-		"country":"SOUTH KOREA",
-		"title":"One day in Seoul",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/china 2.mp4",
-		"ogg":"",
-		"country":"China",
-		"title":"Abundance of Fog",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/russia 2.mp4",
-		"ogg":"",
-		"country":"Russia",
-		"title":"Kaleidoscope",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/israel 2.mp4",
-		"ogg":"",
-		"country":"ITALY",
-		"title":"\"CHE BELLA!\"",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/china 2.mp4",
-		"ogg":"",
-		"country":"Mexico",
-		"title":"Flame",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/russia 2.mp4",
-		"ogg":"",
-		"country":"south korea",
-		"title":"From tradition to capitalism",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"black",
-		"background":"white",
-		"mp4":"videos/israel 2.mp4",
-		"ogg":"",
-		"country":"Greece",
-		"title":"land of dualities",
-		"url":"",
-		"info":"",
-		"by":""
-	},
-	{
-		"color":"white",
-		"background":"black",
-		"mp4":"videos/china 2.mp4",
-		"ogg":"",
-		"country":"Japan",
-		"title":"Untraceable",
-		"url":"",
-		"info":"",
-		"by":""
-	}
-]
+[{
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/israel 2.mp4",
+    "ogg": "ogg",
+    "country": "Denmark",
+    "title": "Hyggelish",
+    "url": "",
+    "info": "An isometric three dimensional typeface inspired by Danish industrial design and the modularity of Lego. Explore the playful interactive lexicon of Danish words and expressions.",
+    "by": "Matan Kalvo &amp; Gabriella Moses"
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/turkey 2.mp4",
+    "ogg": "ogg",
+    "country": "Turkey",
+    "title": "Cymbal",
+    "url": "../turkey/index.html",
+    "info": "A soundtrack inspired by the traditional instruments and flavors of Turkey. Create an interactive rhythm of beats and blends.",
+    "by": "Matan Kalvo &amp; Gabriella Moses"
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/russia 2.mp4",
+    "ogg": "",
+    "country": "Morocco",
+    "title": "Oumaima",
+    "url": "",
+    "info": "Animated graphics created from particles of sand and inspired by Moroccan tradition convey the story of a teenage girl. Surf through Islam, gender and tradition.",
+    "by": "Daniel Barash, Ori Zinger"
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/israel 2.mp4",
+    "ogg": "",
+    "country": "Iran",
+    "title": "Iran Live",
+    "url": "",
+    "info": "Installation, unedited footage obtained from security cameras throughout the nation. Edit your own version of Iran without bias.",
+    "by": "Ido Azaria &amp; Uri Or"
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/china 2.mp4",
+    "ogg": "",
+    "country": "Israel",
+    "title": "Israel",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/china 2.mp4",
+    "ogg": "",
+    "country": "USA",
+    "title": "Discovering Average Joe & Plain Jane",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/russia 2.mp4",
+    "ogg": "",
+    "country": "Greece",
+    "title": "The Divided Line",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/israel 2.mp4",
+    "ogg": "",
+    "country": "Israel",
+    "title": "Dead sea",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/china 2.mp4",
+    "ogg": "",
+    "country": "Brazil",
+    "title": "Made in Brazil",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/PortugalThumbnailATLAS.mp4",
+    "ogg": "",
+    "country": "Portugal",
+    "title": "The Ocean's Nation",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/israel 2.mp4",
+    "ogg": "",
+    "country": "SOUTH KOREA",
+    "title": "One day in Seoul",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/china 2.mp4",
+    "ogg": "",
+    "country": "China",
+    "title": "Abundance of Fog",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/russia 2.mp4",
+    "ogg": "",
+    "country": "Russia",
+    "title": "Kaleidoscope",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/israel 2.mp4",
+    "ogg": "",
+    "country": "ITALY",
+    "title": "\"CHE BELLA!\"",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/china 2.mp4",
+    "ogg": "",
+    "country": "Mexico",
+    "title": "Flame",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/russia 2.mp4",
+    "ogg": "",
+    "country": "south korea",
+    "title": "From tradition to capitalism",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/israel 2.mp4",
+    "ogg": "",
+    "country": "Greece",
+    "title": "land of dualities",
+    "url": "",
+    "info": "",
+    "by": ""
+}, {
+    "color": "white",
+    "background": "black",
+    "mp4": "videos/china 2.mp4",
+    "ogg": "",
+    "country": "Japan",
+    "title": "Untraceable",
+    "url": "",
+    "info": "",
+    "by": ""
+}]
