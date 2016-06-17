@@ -300,28 +300,35 @@ iframe{
 }
 #story h2{
   font-family: Sabon;
+  font-style: italic;
   padding: 0px;
   margin: 0px;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 #story h1{
   padding: 0px;
   margin: 0px;
+  margin-top: 30px;
   font-family: Alright;
   font-size: 22pt;
+   text-transform: uppercase;
 }
 #story p{
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
   width: 40%;
   padding: 0px;
-  margin: 0px;
   font-family: Sabon;
   font-size: 12pt;
 }
 #story div{
+    font-style: italic;
   padding: 0px;
-  margin: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   font-family: Sabon;
-  font-size: 8pt;
+  font-size: 10pt;
 }
 .hide{
   visibility: hidden;
