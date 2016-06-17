@@ -36,6 +36,27 @@ body.about {
     background-color: #fff;
     overflow: auto;
 }
+.credits {
+    padding-left: 52%;
+    text-align: left;
+    position: relative;
+    font-family: Sabon;
+    font-size: 16pt;
+    line-height: 1.5;
+}
+.heading {
+    float: left;
+    position: absolute;
+    left: 0;
+    width: 48%;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.20em;
+    font-size: 9pt;
+    padding-top: 6px;
+    font-family: Alright;
+}
+
 header{
   position: relative;
   height: 200px;
