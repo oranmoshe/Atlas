@@ -66,7 +66,7 @@ body.about {
 
 header {
     position: relative;
-    height: 170px;
+    height: 140px;
     font-family: Alright;
 }
 
@@ -198,15 +198,15 @@ video#previews {
     font-weight: 100;
     width: 100%;
     font-size: 1.2rem;
-    top: 200px;
+    top: 120px;
     /* Firefox */
-    height: -moz-calc(100% - 200px);
+    height: -moz-calc(100% - 120px);
     /* WebKit */
-    height: -webkit-calc(100% - 200px);
+    height: -webkit-calc(100% - 120px);
     /* Opera */
-    height: -o-calc(100% - 200px);
+    height: -o-calc(100% - 120px);
     /* Standard */
-    height: calc(100% - 200px);
+    height: calc(100% - 120px);
     overflow: scroll;
     position: absolute;
 }
