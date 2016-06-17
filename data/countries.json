@@ -6,6 +6,7 @@
 		"ogg":"ogg",
 		"country":"Denmark",
 		"title":"Hyggelish",
+		"info":"xxx xxx  xxxxxxx xxxx ",
 		"url":""
 	},
 	{
@@ -37,7 +38,7 @@
 	},
 	{
 		"color":"white",
-		"background":"white",
+		"background":"black",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
 		"country":"Israel",
@@ -46,7 +47,7 @@
 	},
 	{
 		"color":"white",
-		"background":"white",
+		"background":"black",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
 		"country":"USA",
@@ -64,7 +65,7 @@
 	},
 	{
 		"color":"white",
-		"background":"white",
+		"background":"black",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"",
 		"country":"Israel",
@@ -100,7 +101,7 @@
 	},
 	{
 		"color":"white",
-		"background":"white",
+		"background":"black",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
 		"country":"China",
@@ -118,7 +119,7 @@
 	},
 	{
 		"color":"white",
-		"background":"white",
+		"background":"black",
 		"mp4":"videos/israel 2.mp4",
 		"ogg":"",
 		"country":"ITALY",
@@ -136,7 +137,7 @@
 	},
 	{
 		"color":"white",
-		"background":"white",
+		"background":"black",
 		"mp4":"videos/russia 2.mp4",
 		"ogg":"",
 		"country":"south korea",
@@ -154,7 +155,7 @@
 	},
 	{
 		"color":"white",
-		"background":"white",
+		"background":"black",
 		"mp4":"videos/china 2.mp4",
 		"ogg":"",
 		"country":"Japan",

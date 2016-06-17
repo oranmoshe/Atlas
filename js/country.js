@@ -1,8 +1,4 @@
-  // add country
-  var arrCountries = new Array();
-  function addCountries(country){
-    arrCountries.push(country);
-  }
+
   // set main video & color
   var mainVideo;
   var mainColor;
@@ -14,7 +10,6 @@
   }
   // run app
   function run(){
-    var openFlag = 0; 
    $.getJSON( "data/countries.json", function( data ) {
       countriesLength=data.length;
       $.each( data, function( key, value ) {
@@ -46,6 +41,7 @@
               $("#iframeHeader span").css("color",value.color);
                $("#iframeHeader").addClass("animateClose"); 
               iframeOpen();
+              fillData(value);
               $(fadeSelector).fadeOut();
             });  
             $("#next").click(function(){
@@ -63,21 +59,18 @@
             });
            $("#info").unbind('click').bind('click', function(event){              
               if(event.target.id =="info") {
-                if(openFlag==0){
-                  iframeMenuOpen();
-                  openFlag=1;
-                  console.log(openFlag);
-                }else{
-                  iframeMenuClose();
-                  openFlag=0;
-                  console.log(openFlag);
-                }
+                iframeMenuToggle();
               }
             });
           });
         });
       });
    var iterator = 0;
+   function fillData(data){
+      $("#iframeHeader h1").html(data.title);
+      $("#iframeHeader h2").html(data.country);
+      $("#iframeHeader p").html(data.info);
+   }
    function goNext(){
     if(iterator<countriesLength){
       $("iframe").attr("src",'video.html?vid='+(iterator+1));
@@ -103,24 +96,35 @@
        $("#iframeHeader").css("display","block");
        $("#iframeHeader").removeClass("hide");
        $("iframe").removeClass("hide");
+       $("iframe").addClass("show");
+       $("#story").hide();
    }
   function iframeClose(){
        $("iframe").attr("src",'');
-       $("iframe").css("display","none");
+       $("iframe").removeClass("show");
+       $("iframe").addClass("hide");
        $("#iframeHeader").addClass("hide");
        $("#iframeHeader").css("display","none");
        $("#iframeHeader").removeClass("animateOpen");
        $("#iframeHeader").removeClass("animateClose");
+       $("#story").hide();
+       openFlag=0;
    }
    function iframeMenuOpen(){
     $("#iframeHeader").removeClass("animateClose");
     $("#iframeHeader").addClass("animateOpen"); 
-    $("#story").fadeIn(1000);
+    $("#story").fadeIn(2000);
    }
    function iframeMenuClose(){
     $("#iframeHeader").removeClass("animateOpen");
     $("#iframeHeader").addClass("animateClose"); 
-    $("#story").fadeOut(300);
+    $("#story").css("display","none");
    }
-
+   function iframeMenuToggle(){
+      if( $("#iframeHeader").hasClass("animateOpen")){
+        iframeMenuClose();
+      }else{
+        iframeMenuOpen();
+      }
+   }
 }

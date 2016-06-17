@@ -268,8 +268,9 @@ iframe{
   width: 100%;
   top:0px;
   background-color: white;
-  height: 50px;
+  min-height: 50px;
   border-bottom: 2px solid #343434;
+  overflow: hidden;
 }
 #videoMenu{
   font-family: Alright;
@@ -298,25 +299,29 @@ iframe{
   margin: 0px;
 }
 #story h2{
- 
+  font-family: Sabon;
   padding: 0px;
   margin: 0px;
+  font-size: 12pt;
 }
 #story h1{
   padding: 0px;
   margin: 0px;
+  font-family: Alright;
+  font-size: 22pt;
 }
 #story p{
+  width: 40%;
   padding: 0px;
   margin: 0px;
+  font-family: Sabon;
+  font-size: 12pt;
 }
 #story div{
   padding: 0px;
-  margin: 0px;
-}
-#iframeHeader h1{
-  font-size: 30px;
+  margin: 40px;
   font-family: Sabon;
+  font-size: 8pt;
 }
 .hide{
   visibility: hidden;
@@ -360,7 +365,7 @@ iframe{
         /* Good browsers */
         opacity: 0.2;
 
-        height: 50px;
+        min-height: 50px;
 
    }
   0% {   /* IE 8 */
@@ -378,7 +383,7 @@ iframe{
         /* Good browsers */
         opacity: 0.8;
 
-        height: 240px;
+        padding-bottom: 100px;
    }
 }
 @keyframes fadein {
@@ -398,7 +403,7 @@ iframe{
         /* Good browsers */
         opacity: 0.2;
 
-        height: 50px;
+        min-height: 50px;
    }
   100% {   /* IE 8 */
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -415,7 +420,7 @@ iframe{
         /* Good browsers */
         opacity: 0.8;
 
-        height: 240px;
+        padding-bottom: 100px;
 
    }
 }
