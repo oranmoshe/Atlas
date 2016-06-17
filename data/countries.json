@@ -6,8 +6,9 @@
 		"ogg":"ogg",
 		"country":"Denmark",
 		"title":"Hyggelish",
-		"info":"xxx xxx  xxxxxxx xxxx ",
-		"url":""
+		"url":"",
+		"info":"An isometric three dimensional typeface inspired by Danish industrial design and the modularity of Lego. Explore the playful interactive lexicon of Danish words and expressions.",	
+		"by":"Matan Kalvo &amp; Gabriella Moses"
 	},
 	{
 		"color":"white",
@@ -15,8 +16,10 @@
 		"mp4":"videos/turkey 2.mp4",
 		"ogg":"ogg",
 		"country":"Turkey",
-		"title":"The sounds of Turkey",
-		"url":"../turkey/index.html"
+		"title":"Cymbal",
+		"url":"../turkey/index.html",
+		"info":"A soundtrack inspired by the traditional instruments and flavors of Turkey. Create an interactive rhythm of beats and blends.",
+		"by":"Matan Kalvo &amp; Gabriella Moses"
 	},
 	{
 		"color":"black",
@@ -25,7 +28,9 @@
 		"ogg":"",
 		"country":"Morocco",
 		"title":"Oumaima",
-		"url":""
+		"url":"",
+		"info":"Animated graphics created from particles of sand and inspired by Moroccan tradition convey the story of a teenage girl. Surf through Islam, gender and tradition.",
+		"by":"Daniel Barash, Ori Zinger"
 	},
 	{
 		"color":"white",
@@ -34,7 +39,9 @@
 		"ogg":"",
 		"country":"Iran",
 		"title":"Iran Live",
-		"url":""
+		"url":"",
+		"info":"Installation, unedited footage obtained from security cameras throughout the nation. Edit your own version of Iran without bias.",
+		"by":"Ido Azaria &amp; Uri Or"
 	},
 	{
 		"color":"white",
@@ -43,7 +50,9 @@
 		"ogg":"",
 		"country":"Israel",
 		"title":"Israel",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"white",
@@ -52,7 +61,9 @@
 		"ogg":"",
 		"country":"USA",
 		"title":"Discovering Average Joe & Plain Jane",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"black",
@@ -61,7 +72,9 @@
 		"ogg":"",
 		"country":"Greece",
 		"title":"The Divided Line",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"white",
@@ -70,7 +83,9 @@
 		"ogg":"",
 		"country":"Israel",
 		"title":"Dead sea",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"black",
@@ -79,7 +94,9 @@
 		"ogg":"",
 		"country":"Brazil",
 		"title":"Made in Brazil",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"black",
@@ -88,7 +105,9 @@
 		"ogg":"",
 		"country":"Portugal",
 		"title":"The Ocean's Nation",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"black",
@@ -97,7 +116,9 @@
 		"ogg":"",
 		"country":"SOUTH KOREA",
 		"title":"One day in Seoul",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"white",
@@ -106,7 +127,9 @@
 		"ogg":"",
 		"country":"China",
 		"title":"Abundance of Fog",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"black",
@@ -115,7 +138,9 @@
 		"ogg":"",
 		"country":"Russia",
 		"title":"Kaleidoscope",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"white",
@@ -124,7 +149,9 @@
 		"ogg":"",
 		"country":"ITALY",
 		"title":"\"CHE BELLA!\"",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"black",
@@ -133,7 +160,9 @@
 		"ogg":"",
 		"country":"Mexico",
 		"title":"Flame",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"white",
@@ -142,7 +171,9 @@
 		"ogg":"",
 		"country":"south korea",
 		"title":"From tradition to capitalism",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"black",
@@ -151,7 +182,9 @@
 		"ogg":"",
 		"country":"Greece",
 		"title":"land of dualities",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	},
 	{
 		"color":"white",
@@ -160,6 +193,8 @@
 		"ogg":"",
 		"country":"Japan",
 		"title":"Untraceable",
-		"url":""
+		"url":"",
+		"info":"",
+		"by":""
 	}
 ]

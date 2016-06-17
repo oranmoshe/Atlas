@@ -9,7 +9,7 @@
     $("#bgvid").attr("src",src);
   }
   // run app
-  function run(){
+  function run(){  
    $.getJSON( "data/countries.json", function( data ) {
       countriesLength=data.length;
       $.each( data, function( key, value ) {
@@ -67,9 +67,10 @@
       });
    var iterator = 0;
    function fillData(data){
-      $("#iframeHeader h1").html(data.title);
-      $("#iframeHeader h2").html(data.country);
-      $("#iframeHeader p").html(data.info);
+      $("#story h1").html(data.title);
+      $("#story h2").html(data.country);
+      $("#story p").html(data.info);
+      $("#story div").html(data.by);
    }
    function goNext(){
     if(iterator<countriesLength){
