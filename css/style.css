@@ -59,13 +59,13 @@ body.about {
 
 header{
   position: relative;
-  height: 200px;
+  height: 170px;
   font-family: Alright;
 }
 header nav{
   position: absolute;
   right:100px;
-  top: 100px;
+  top: 43px;
 }
 header nav ul{
   list-style: none;
@@ -92,12 +92,12 @@ header section{
 #logo{
   position: absolute;
   display: block;
-  top:100px;
+  top: 20px;
   width:100px;
   left: 100px;
   color:black;
 }
-#logo img {
+#logo svg {
   height: 47px;
 }
 .clearfix:after {
