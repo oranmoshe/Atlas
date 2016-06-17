@@ -97,7 +97,7 @@ header section{
   left: 100px;
   color:black;
 }
-#logo img {
+#logo svg {
   height: 47px;
 }
 .clearfix:after {
