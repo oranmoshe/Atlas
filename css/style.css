@@ -198,6 +198,10 @@ video#previews {
     position: relative;
 }
 
+#countriesList li {
+    cursor: pointer;
+}
+
 .stopfade {
     opacity: .5;
 }
