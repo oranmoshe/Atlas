@@ -12,7 +12,7 @@ function run() {
             // Generate DOM elements
             $('#countriesList').append('<li id=country' + key +
                 '><article><div class=title>' + value.title +
-                '</div><div class=country>' + value.country + ' ⋆ ' +
+                '</div><div class=country>' + value.country + ' <span class=dot></span> ' +
                 (key * 7 + 50) + 'km</div></article></li>');
 
             // Bind mouseover event, change BG and video SRC etc.

@@ -501,6 +501,12 @@ iframe {
     opacity: 1;
 }
 
+.dot::before {
+    content: "•";
+    font-size: 70%;
+    margin: 0 3px;
+}
+
 @media screen and (max-device-width: 800px) {
     html {
         background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed;
