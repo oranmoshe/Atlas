@@ -223,6 +223,7 @@ video#previews {
 
 body.dark {
     color: white;
+    background-color: #000;
 }
 
 body.dark svg {
@@ -231,6 +232,7 @@ body.dark svg {
 
 body.light {
     color: black;
+    background-color: #fff;
 }
 
 body.light svg {
