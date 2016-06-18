@@ -15,7 +15,7 @@ function run() {
         $.each(data, function (key, value) {
 
             // Generate DOM elements
-            $('#countriesList').append('<li class=mix  data-my-order='+ value.title[0] +' id=country' + key +
+            $('#countriesList').append('<li class=mix  data-my-order='+ value.title[0] +'  id=country' + key +
                 '><article><div class=title>' + value.title +
                 '</div><div class=country>' + value.country + ' <span class=dot></span> ' +
                 (key * 7 + 50) + 'km</div></article></li>');
@@ -220,8 +220,16 @@ function run() {
     function instantiateMixItUp(){
         $('#countriesList').mixItUp();
         $('#countriesList').on('mixEnd', function(e, state){
-           $(".mix").css("display","block");
+           $(".mix").css("width","100%");
         });
     }
+    // Order By ABC toggle
+    $("#abc").click(function(){
+        if($("#abc").attr("data-sort") == "my-order:desc"){
+            $("#abc").attr("data-sort","my-order:asc");
+        }else{
+            $("#abc").attr("data-sort","my-order:desc");
+        }    
+    });
 
 }
