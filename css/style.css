@@ -486,6 +486,21 @@ iframe {
     line-height: 1.4;
 }
 
+.about .running p {
+    line-height: 1.6;
+    font-size: 18pt;
+}
+
+.about a {
+    color: black;
+    opacity: 0.75;
+    transition: 0.5s linear opacity;
+}
+
+.about a:hover {
+    opacity: 1;
+}
+
 @media screen and (max-device-width: 800px) {
     html {
         background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed;
