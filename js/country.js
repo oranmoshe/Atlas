@@ -53,6 +53,13 @@ function run() {
                     '#fadeWhite' : '#fadeBlack');
                 var textColor = ((value.background == 'white') ?
                     'black' : 'white');
+                if (value.color == "black") {
+                    $("body").addClass("dark")
+                    $("body").removeClass("light")
+                } else {
+                    $("body").addClass("light")
+                    $("body").removeClass("dark")
+                }
                 $(fadeSelector).fadeIn(500, function () {
                     if (value.url.length > 0) {
                         $("iframe").attr("src", value.url);
@@ -60,14 +67,17 @@ function run() {
                         $("iframe").attr("src",
                             'video.html?vid=' + key);
                     }
-                    $("#iframeHeader").css(
-                        "background-color", value.background
-                    );
-                    $("#iframeHeader span").css("color",
-                        value.color);
-                    $("#iframeHeader").addClass(
-                        "animateClose");
+                    $("#iframeHeader").addClass("animateClose");
                     iframeOpen();
+                    // Set color scheme.
+                    if (value.color == "white") {
+                        $("body").addClass("dark")
+                        $("body").removeClass("light")
+                    } else {
+                        $("body").addClass("light")
+                        $("body").removeClass("dark")
+                    }
+                    hoverNone() // Just in case
                     fillData(value);
                     $(fadeSelector).fadeOut();
                 });

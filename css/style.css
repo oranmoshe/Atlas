@@ -352,10 +352,25 @@ iframe {
     min-height: 50px;
     border-bottom: 2px solid #343434;
     overflow: hidden;
+    text-align: center;
 }
 
-#iframeHeader {
-    text-align: center;
+.light #iframeHeader {
+    color: black;
+    background-color: #fff;
+}
+
+.light #iframeHeader svg {
+    fill: black;
+}
+
+.dark #iframeHeader {
+    color: white;
+    background-color: #000;
+}
+
+.dark #iframeHeader svg {
+    fill: white;
 }
 
 #videoMenu svg {
