@@ -179,23 +179,23 @@
     "info": "Interactive mini site inspired by Japanese linguistics. Explore the lexicon of untranslatable words and expressions that have no English equivalent.",
     "by": "Tal Solomon-Vardy &amp; Rotem Adrian"
 }, {
-    "color": "white",
-    "background": "black",
+    "color": "black",
+    "background": "white",
     "mp4": "videos/Remix.mp4",
     "ogg": "",
     "country": "Israel",
     "title": "Remix",
-    "url": "",
+    "url": "http://orfleisher.com/dev/tal/",
     "info": "Interactive design based on redefining citizenship. The Israeli Declaration of Independence narrated by David Ben-Gurion is reordered and as such reconstructed.",
     "by": "Tal Baltuch"
 }, {
-    "color": "white",
-    "background": "black",
+    "color": "black",
+    "background": "white",
     "mp4": "videos/HolyGuns.mp4",
     "ogg": "",
     "country": "Worldwide",
     "title": "Holy Guns",
-    "url": "",
+    "url": "http://orfleisher.com/dev/holyguns/",
     "info": "An interactive experience inspired by the global arms supply. Holy Guns addresses the massive weapon industry; an everyday commodity in a virtual market loaded with information for the buyer.",
     "by": "Neil Cohen, Adi Fleisher &amp; Or Fleisher"
 }]
