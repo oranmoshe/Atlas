@@ -31,14 +31,22 @@ function run() {
                         $("body").addClass("dark")
                     }
                     var otherVids = $("video.previews")
-                    var newVid = $("<video class=previews loop autoplay src=" + value.mp4 + ">")
+                    var newVid = $(
+                        "<video class=previews loop autoplay src=" +
+                        value.mp4 + ">")
                     $("body").append(newVid)
                     newVid.css("opacity", 0)
-                        .animate({"opacity": 1}, {"duration": 300})
+                        .animate({
+                            "opacity": 1
+                        }, {
+                            "duration": 300
+                        })
                     console.log(otherVids)
-                    otherVids.animate({"opacity": 0}, {
+                    otherVids.animate({
+                        "opacity": 0
+                    }, {
                         "duration": 300,
-                        "complete": function() {
+                        "complete": function () {
                             $(this).remove()
                         }
                     })
