@@ -3,11 +3,6 @@ var mainVideo;
 var mainColor;
 var countriesLength = 0;
 
-function setBackgroundVideo(color, src) {
-    mainVideo = src;
-    mainColor = color;
-    $("#bgvid").attr("src", src);
-}
 // run app
 function run() {
     $.getJSON("data/countries.json", function (data) {
