@@ -30,8 +30,18 @@ function run() {
                         $("body").removeClass("light")
                         $("body").addClass("dark")
                     }
-                    $("#previews").attr("src", value.mp4);
-                    $("#previews").css('visibility', 'visible');
+                    var otherVids = $("video.previews")
+                    var newVid = $("<video class=previews loop autoplay src=" + value.mp4 + ">")
+                    $("body").append(newVid)
+                    newVid.css("opacity", 0)
+                        .animate({"opacity": 1}, {"duration": 300})
+                    console.log(otherVids)
+                    otherVids.animate({"opacity": 0}, {
+                        "duration": 300,
+                        "complete": function() {
+                            $(this).remove()
+                        }
+                    })
                 });
 
             // Handle clicks.

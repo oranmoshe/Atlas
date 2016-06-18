@@ -168,7 +168,7 @@ video {
     transition: 1s opacity;
 }
 
-video#previews {
+video.previews {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -182,7 +182,7 @@ video#previews {
     background-size: cover;
     -webkit-transition: 1s opacity;
     transition: 1s opacity;
-    visibility: hidden;
+    opacity: 0;
 }
 
 .dragscroll {
