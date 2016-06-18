@@ -342,6 +342,7 @@ iframe {
     position: absolute;
     left: 100px;
     top: 10px;
+    cursor: pointer;
 }
 
 .close svg {
