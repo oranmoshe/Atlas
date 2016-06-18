@@ -14,10 +14,13 @@ function run() {
         countriesLength = data.length;
         $.each(data, function (key, value) {
 
+            // Generate DOM elements
             $('#countriesList').append('<li id=country' + key +
                 '><article><div class=title>' + value.title +
                 '</div><div class=country>' + value.country + ' ⋆ ' +
                 (key * 7 + 50) + 'km</div></article></li>');
+
+            // Bind mouseover event, change BG and video SRC etc.
             $('#country' + key + ' div.title').first()
                 .mouseover('mouseover', function () {
                     if (value.color == 'black') {
@@ -31,6 +34,7 @@ function run() {
                     $("#previews").css('visibility', 'visible');
                 });
 
+            // Handle clicks.
             $('#country' + key + ' div.title').on("mousedown", function () {
                 var fadeSelector = ((value.background == 'white') ?
                     '#fadeWhite' : '#fadeBlack');
@@ -78,8 +82,9 @@ function run() {
             });
         });
     });
-    var iterator = 0;
+    var iterator = 0; // The iterator points to the ID of the current minisite.
 
+    // Put data into the menubar
     function fillData(data) {
         $("#story h1").html(data.title);
         $("#story h2").html(data.country);
@@ -87,6 +92,7 @@ function run() {
         $("#story div").html(data.by);
     }
 
+    // Go to next video by manipulating the iterator.
     function goNext() {
         if (iterator < countriesLength) {
             $("iframe").attr("src", 'video.html?vid=' + (iterator + 1));
@@ -95,6 +101,7 @@ function run() {
         }
     }
 
+    // Previous video
     function goPrev() {
         if (iterator > 0) {
             $("iframe").attr("src", 'video.html?vid=' + (iterator - 1));
