@@ -35,6 +35,7 @@ body {
     overflow: hidden;
     height: 100%;
     font-family: Alright;
+    transition: 0.5s linear color;
 }
 
 body.about {
@@ -232,6 +233,7 @@ body.dark {
 
 body.dark svg {
     fill: white;
+    transition: 0.5s linear fill;
 }
 
 body.light {
@@ -241,6 +243,7 @@ body.light {
 
 body.light svg {
     fill: black;
+    transition: 0.5s linear fill;
 }
 
 #slider ul {
