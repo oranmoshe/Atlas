@@ -5,6 +5,11 @@ var countriesLength = 0;
 
 // run app
 function run() {
+    $("#intro").bind("ended", function() {
+        $("#intro").fadeOut(1000, function() {
+            $("#intro").remove()
+        })
+    })
     $.getJSON("data/countries.json", function (data) {
         countriesLength = data.length;
         $.each(data, function (key, value) {
