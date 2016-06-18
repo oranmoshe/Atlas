@@ -31,7 +31,7 @@
 }, {
     "color": "white",
     "background": "black",
-    "mp4": "videos/Israel.mp4",
+    "mp4": "videos/Iran.mp4",
     "ogg": "",
     "country": "Iran",
     "title": "Livecam",
@@ -39,13 +39,13 @@
     "info": "Installation, unedited footage obtained from security cameras throughout the nation. Edit your own version of Iran without bias.",
     "by": "Ido Azaria &amp; Uri Or"
 }, {
-    "color": "white",
-    "background": "black",
-    "mp4": "videos/China.mp4",
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/Israel.mp4",
     "ogg": "",
     "country": "Israel",
     "title": "Monumental",
-    "url": "",
+    "url": "./projects/Monumental.mp4",
     "info": "Video art inspired by Israeli landscape. Discover cultural diversity through fashion, dance and sculpture.",
     "by": "Roy Waks, Dana Cohen &amp; Sapir Mashiach"
 }, {
@@ -61,7 +61,7 @@
 }, {
     "color": "black",
     "background": "white",
-    "mp4": "videos/Russia.mp4",
+    "mp4": "videos/Greece-Ofir.mp4",
     "ogg": "",
     "country": "Greece",
     "title": "The Divided Line",
@@ -71,7 +71,7 @@
 }, {
     "color": "white",
     "background": "black",
-    "mp4": "videos/Israel.mp4",
+    "mp4": "videos/IsraelMemo.mp4",
     "ogg": "",
     "country": "Israel",
     "title": "Memorabilia",
@@ -101,7 +101,7 @@
 }, {
     "color": "black",
     "background": "white",
-    "mp4": "videos/Israel.mp4",
+    "mp4": "videos/Korea-Michal.mp4",
     "ogg": "",
     "country": "South Korea",
     "title": "One day in Seoul",
@@ -115,7 +115,7 @@
     "ogg": "",
     "country": "China",
     "title": "Toxic Fog",
-    "url": "",
+    "url": "./projects/China.mp4",
     "info": "Video art with repetitive tempo questions the borders between the organic and the synthetic, the human and the automated, within Chinese life. Explore the effects of rapid economic growth combined with urbanization on the environment.",
     "by": "Shiri Aharon &amp; Mor Bachar"
 }, {
@@ -129,9 +129,9 @@
     "info": "Video art and motion graphics inspired by geometric shapes formed by figure skating. Kaleidoscope mirrors the discipline and determination of nine famous Russian athletes.",
     "by": "Guy Kaminer &amp; Nina Gronove"
 }, {
-    "color": "white",
-    "background": "black",
-    "mp4": "videos/Israel.mp4",
+    "color": "black",
+    "background": "white",
+    "mp4": "videos/Italy.mp4",
     "ogg": "",
     "country": "Italy",
     "title": "\"CHE BELLA!\"",
@@ -151,7 +151,7 @@
 }, {
     "color": "white",
     "background": "black",
-    "mp4": "videos/Russia.mp4",
+    "mp4": "videos/Korea-Tali.mp4",
     "ogg": "",
     "country": "South Korea",
     "title": "Tiger Economy",
@@ -161,7 +161,7 @@
 }, {
     "color": "black",
     "background": "white",
-    "mp4": "videos/Israel.mp4",
+    "mp4": "videos/Greece-Lee.mp4",
     "ogg": "",
     "country": "Greece",
     "title": "Nephele",
@@ -171,17 +171,17 @@
 }, {
     "color": "white",
     "background": "black",
-    "mp4": "videos/China.mp4",
+    "mp4": "videos/Japan.mp4",
     "ogg": "",
     "country": "Japan",
     "title": "Untranslatable",
-    "url": "",
+    "url": "http://consolesm.wix.com/japan",
     "info": "Interactive mini site inspired by Japanese linguistics. Explore the lexicon of untranslatable words and expressions that have no English equivalent.",
     "by": "Tal Solomon-Vardy &amp; Rotem Adrian"
 }, {
     "color": "white",
     "background": "black",
-    "mp4": "videos/China.mp4",
+    "mp4": "videos/Remix.mp4",
     "ogg": "",
     "country": "Israel",
     "title": "Remix",
@@ -191,7 +191,7 @@
 }, {
     "color": "white",
     "background": "black",
-    "mp4": "videos/China.mp4",
+    "mp4": "videos/HolyGuns.mp4",
     "ogg": "",
     "country": "Worldwide",
     "title": "Holy Guns",
