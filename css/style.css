@@ -28,7 +28,9 @@
     -ms-user-select: none;
     user-select: none;
 }
-
+html {
+    height: 100%;
+}
 body {
     margin: 0;
     background: #000;
@@ -36,6 +38,24 @@ body {
     height: 100%;
     font-family: Alright;
     transition: 0.5s linear color;
+}
+
+body.video video {
+top: 0px;
+width: 100%    !important;
+height: 100%   !important;
+}
+body.video  section{
+top: 50px;
+/* Firefox */
+height: -moz-calc(100% - 50px);
+/* WebKit */
+height: -webkit-calc(100% - 50px);
+/* Opera */
+height: -o-calc(100% - 50px);
+/* Standard */
+height: calc(100% - 50px);
+position: relative;
 }
 
 body.about {
@@ -160,22 +180,6 @@ header section {
 
 
 /* close commented backslash hack */
-
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    -webkit-transition: 1s opacity;
-    transition: 1s opacity;
-}
 
 video.previews {
     position: fixed;
