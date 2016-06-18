@@ -39,23 +39,13 @@ body {
     font-family: Alright;
     transition: 0.5s linear color;
 }
-
+body.video section {
+    height: 100%;
+}
 body.video video {
 top: 0px;
 width: 100%    !important;
 height: 100%   !important;
-}
-body.video  section{
-top: 50px;
-/* Firefox */
-height: -moz-calc(100% - 50px);
-/* WebKit */
-height: -webkit-calc(100% - 50px);
-/* Opera */
-height: -o-calc(100% - 50px);
-/* Standard */
-height: calc(100% - 50px);
-position: relative;
 }
 
 body.about {

@@ -15,8 +15,6 @@ function run() {
                 '</div><div class=country>' + value.country + ' <span class=dot></span> ' +
                 (key * 7 + 50) + 'km</div></article></li>');
 
-            console.log("ss");
-
             // Bind mouseover event, change BG and video SRC etc.
             $('#country' + key + ' div.title').first()
                 .mouseover('mouseover', function () {
@@ -105,7 +103,6 @@ function run() {
 
                 $("#slider").mouseout(function() {
                     hoverNone()
-                    console.log("lkj")
                 })
             });
         });
@@ -197,5 +194,18 @@ function run() {
                 $(this).remove()
             }
         })
+    }
+
+    iframeHeaderShow();
+    function iframeHeaderShow(){
+        $("#iframeHeader").css("top","-40px");
+        $("#iframeHeader").on('mouseover',function(){
+            $("#iframeHeader").css("top","0px");
+        });
+        $("#iframeHeader").on('mouseout',function(){
+            if(!$("#iframeHeader").hasClass("animateOpen")){
+                $("#iframeHeader").css("top","-40px");
+            }
+        });
     }
 }
