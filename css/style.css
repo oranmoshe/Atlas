@@ -333,13 +333,26 @@ iframe {
     overflow: hidden;
 }
 
+#iframeHeader {
+    text-align: center;
+}
+
+#videoMenu svg {
+    height: 25px;
+    width: 25px
+}
+
+#videoMenu div {
+    display: inline-block;
+}
+
 #videoMenu {
     font-family: Alright;
     font-weight: bold;
     position: relative;
     width: 200px;
     margin: 0 auto;
-    top: 15px;
+    top: 12px;
     text-align: center;
     height: 20px;
 }
@@ -360,7 +373,7 @@ iframe {
     position: relative;
     display: block;
     text-align: center;
-    padding: 0px;
+    padding: 0 0 1px 0;
     margin: 0 0 50px 0;
 }
 

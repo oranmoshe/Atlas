@@ -85,9 +85,7 @@ function run() {
                 });
                 $("#info").unbind('click').bind('click', function (
                     event) {
-                    if (event.target.id == "info") {
-                        iframeMenuToggle();
-                    }
+                    iframeMenuToggle();
                 });
             });
         });
