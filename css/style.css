@@ -203,6 +203,16 @@ video.previews {
     cursor: pointer;
 }
 
+#countriesList:hover li {
+    transition: 0.5s opacity linear;
+    opacity: 0.5;
+}
+
+#countriesList li:hover {
+    transition: 0.5s opacity linear;
+    opacity: 1;
+}
+
 .stopfade {
     opacity: .5;
 }

@@ -95,6 +95,11 @@ function run() {
                     event) {
                     iframeMenuToggle();
                 });
+
+                $("#slider").mouseout(function() {
+                    hoverNone()
+                    console.log("lkj")
+                })
             });
         });
     });
@@ -168,5 +173,20 @@ function run() {
         } else {
             iframeMenuOpen();
         }
+    }
+
+    // Clear the hover state. Makes the screen go back to white.
+    function hoverNone() {
+        $("body").removeClass("dark")
+            .addClass("light")
+
+        $("video.previews").animate({
+            opacity: 0
+        }, {
+            duration: 200,
+            complete: function() {
+                $(this).remove()
+            }
+        })
     }
 }
