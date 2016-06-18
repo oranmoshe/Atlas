@@ -43,6 +43,14 @@ body.about {
     overflow: auto;
 }
 
+.about h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10pt;
+    margin-bottom: 29px;
+    letter-spacing: 0.09em;
+}
+
 .credits {
     padding-left: 52%;
     text-align: left;
