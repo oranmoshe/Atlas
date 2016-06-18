@@ -157,16 +157,18 @@ function run() {
         openFlag = 0;
     }
 
+    // Open the video menu
     function iframeMenuOpen() {
         $("#iframeHeader").removeClass("animateClose");
         $("#iframeHeader").addClass("animateOpen");
     }
-
+    // Close the video menu.
     function iframeMenuClose() {
         $("#iframeHeader").removeClass("animateOpen");
         $("#iframeHeader").addClass("animateClose");
     }
 
+    // Toggle the menu
     function iframeMenuToggle() {
         if ($("#iframeHeader").hasClass("animateOpen")) {
             iframeMenuClose();
