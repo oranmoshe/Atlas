@@ -133,7 +133,6 @@ function run() {
         $("#iframeHeader").removeClass("hide");
         $("iframe").removeClass("hide");
         $("iframe").addClass("show");
-        $("#story").hide();
     }
 
     function iframeClose() {
@@ -144,20 +143,17 @@ function run() {
         $("#iframeHeader").css("display", "none");
         $("#iframeHeader").removeClass("animateOpen");
         $("#iframeHeader").removeClass("animateClose");
-        $("#story").hide();
         openFlag = 0;
     }
 
     function iframeMenuOpen() {
         $("#iframeHeader").removeClass("animateClose");
         $("#iframeHeader").addClass("animateOpen");
-        $("#story").fadeIn(2000);
     }
 
     function iframeMenuClose() {
         $("#iframeHeader").removeClass("animateOpen");
         $("#iframeHeader").addClass("animateClose");
-        $("#story").css("display", "none");
     }
 
     function iframeMenuToggle() {

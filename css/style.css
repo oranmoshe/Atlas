@@ -356,12 +356,12 @@ iframe {
 }
 
 #story {
-    top: 100px;
+    top: 50px;
     position: relative;
-    display: none;
+    display: block;
     text-align: center;
     padding: 0px;
-    margin: 0px;
+    margin: 0 0 50px 0;
 }
 
 #story h2 {
@@ -409,13 +409,19 @@ iframe {
 }
 
 .animateClose {
-    -webkit-animation: fadeout 0.5s linear forwards;
-    animation: fadeout 0.5s linear forwards;
+    opacity: 0.2;
+    transition: linear 0.5s opacity, ease-in-out 0.5s max-height;
+    max-height: 50px;
+}
+
+.animateClose:hover {
+    opacity: 0.5;
 }
 
 .animateOpen {
-    -webkit-animation: fadein 0.5s linear forwards;
-    animation: fadein 0.5s linear forwards;
+    opacity: 0.8;
+    transition: linear 0.5s opacity, ease-in-out 0.5s max-height;
+    max-height: 70vh;
 }
 
 .running {
@@ -429,70 +435,6 @@ iframe {
     font-family: Sabon, sans-serif;
     color: rgb(32, 32, 32);
     line-height: 1.4;
-}
-
-@keyframes fadeout {
-    100% {
-        /* IE 8 */
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-        /* IE 5-7 */
-        filter: alpha(opacity=20);
-        /* Netscape */
-        -moz-opacity: 0.2;
-        /* Safari 1.x */
-        -khtml-opacity: 0.2;
-        /* Good browsers */
-        opacity: 0.2;
-        min-height: 50px;
-    }
-    0% {
-        /* IE 8 */
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-        /* IE 5-7 */
-        filter: alpha(opacity=80);
-        /* Netscape */
-        -moz-opacity: 0.8;
-        /* Safari 1.x */
-        -khtml-opacity: 0.8;
-        /* Good browsers */
-        opacity: 0.8;
-        padding-bottom: 100px;
-    }
-}
-
-@keyframes fadein {
-    0% {
-        /* IE 8 */
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-        /* IE 5-7 */
-        filter: alpha(opacity=20);
-        /* Netscape */
-        -moz-opacity: 0.2;
-        /* Safari 1.x */
-        -khtml-opacity: 0.2;
-        /* Good browsers */
-        opacity: 0.2;
-        min-height: 50px;
-    }
-    100% {
-        /* IE 8 */
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-        /* IE 5-7 */
-        filter: alpha(opacity=80);
-        /* Netscape */
-        -moz-opacity: 0.8;
-        /* Safari 1.x */
-        -khtml-opacity: 0.8;
-        /* Good browsers */
-        opacity: 0.8;
-        padding-bottom: 100px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    div {
-        width: 70%;
-    }
 }
 
 @media screen and (max-device-width: 800px) {
