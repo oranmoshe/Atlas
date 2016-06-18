@@ -483,6 +483,7 @@ iframe {
 .running {
     text-align: center;
     width: 75%;
+    max-width: 1020px;
     margin: 0 auto 80px auto;
 }
 
