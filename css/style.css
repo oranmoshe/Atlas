@@ -39,6 +39,9 @@ body {
     font-family: Alright;
     transition: 0.5s linear color;
 }
+iframe{
+    background-color: black;
+}
 body.video section {
     height: 100%;
 }

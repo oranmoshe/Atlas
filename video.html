@@ -19,7 +19,8 @@
           $.each( data, function( key, value ) {
               var vid = getParameterByName("vid");              
               if(data[vid] != undefined){
-                $("#bgvid").attr("src",data[vid].mp4);
+                console.log(data[vid].mp4);
+                $("video").attr("src",data[vid].mp4);
               }
             });
         }); 

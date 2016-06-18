@@ -41,7 +41,6 @@ function run() {
                         }, {
                             "duration": 300
                         })
-                    console.log(otherVids)
                     otherVids.animate({
                         "opacity": 0
                     }, {
