@@ -1,0 +1,42 @@
+{
+    "images": [
+        {
+            "letter": "H",
+            "img": [
+                {
+                    "index": "0",
+                    "src": "images/H.png",
+                },
+                {
+                    "index": "0",
+                    "src": "images/HY.png'",
+                },
+                {
+                    "index": "0",
+                    "src": "images/HYG.png",
+                },
+                {
+                    "index": "0",
+                    "src": "images/HYGG.png",
+                },
+                {
+                    "index": "0",
+                    "src": "images/HYGGE.png",
+                },
+                {
+                    "index": "0",
+                    "src": "images/HYGGEL.png",
+                },
+                {
+                    "index": "0",
+                    "src": "images/HYGGELI.png",
+                },
+                {
+                    "index": "0",
+                    "src": "images/HYGGELIG.png",
+                }
+
+            ]
+        }
+    ]
+}
