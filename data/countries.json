@@ -24,7 +24,7 @@
     "mp4": "videos/Morocco.mp4",
     "ogg": "",
     "country": "Morocco",
-    "title": "Oumaima",
+    "title": "Erhali",
     "url": "./projects/Morocco.mp4",
     "info": "Animated graphics created from particles of sand and inspired by Moroccan tradition convey the story of a teenage girl. Surf through Islam, gender and&nbsp;tradition.",
     "by": "Daniel Barash &amp; Ori Zinger"
@@ -35,7 +35,7 @@
     "ogg": "",
     "country": "Iran",
     "title": "Livecam",
-    "url": "",
+    "url": "./projects/Iran.mp4",
     "info": "Installation, unedited footage obtained from security cameras throughout the nation. Edit your own version of Iran without&nbsp;bias.",
     "by": "Ido Azaria &amp; Uri Or"
 }, {
@@ -65,7 +65,7 @@
     "ogg": "",
     "country": "Greece",
     "title": "The Divided Line",
-    "url": "",
+    "url": "./projects/Greece-Ofir.mp4",
     "info": "Interactive video inspired by Plato’s concept of duality. The divided line represents the separation of consciousness into two - the world of knowledge and&nbsp;senses.",
     "by": "Ofir Plotkin"
 }, {
@@ -75,7 +75,7 @@
     "ogg": "",
     "country": "Israel",
     "title": "Memorabilia",
-    "url": "",
+    "url": "./projects/IsraelMemo.mp4",
     "info": "A collection of topographic jewelry inspired by Israeli geography. Souvenirs from the Holy&nbsp;land.",
     "by": "Noa Maller, Inbar Idan &amp; Yarden Bernstein"
 }, {
