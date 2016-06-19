@@ -1,0 +1,31 @@
+
+#sound-mixer{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    overflow: hidden;
+}
+#sound-content{
+	display: block;
+	position: relative;
+	height:100%;
+	overflow: hidden;
+}
+.sound-box{
+	position: absolute;	
+    background-size: 100px;
+}
+.sound-icon{
+    z-index: 99999; position: absolute;display: none;
+    width:200px;
+    height: 100px;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+}
+.box-show-icon{
+    width: 100%;
+    height: 30px;
+}

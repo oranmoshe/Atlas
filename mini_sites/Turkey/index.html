@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Turkey</title>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="includes/style.css">
+  <link rel="stylesheet" type="text/css" href="includes/soundBox.css">
+  <script src="includes/soundBox.js"></script>
+  <script src="includes/controller.js"></script>
+</head>
+<body>
+<a href="#" id="logo"></a>
+<a id="mute-button" class="play"></a>
+<section id="sound-icons"></section>
+<section id="sound-mixer">
+	<section id="sound-content">
+	</section>
+</section>
+<section id="wrapper">
+	<header>
+		
+		<div id="wellcome">Welcome to Turkey</div>
+		<h1>Sounds Of Turkey</h1>
+		<div id="info">
+This sound project allows you to create your own melody from the sounds of Turkey.
+The combinations vary from traditional Turkish musical instruments to daily sounds found on the streets of Istanbul.
+By revealing the layers below, a different sound is created with each experience. 
+
+		</div>
+	</header>
+</section>
+  <section id="instructions">
+    Reveal the sounds by dragging the layers
+  </section>
+<script>
+  (function(){
+  	AddSound( "sounds/Turkish Blend.mp3", "sounds/Free Style Rythm.ogg.ogg","images/Turkishblend.png", "#a0321a");
+    AddSound( "sounds/Turkish Coffee un-edited vocal long.wav", "sounds/Muezzin", "images/Muezzin.png","#f76a40");
+    AddSound( "sounds/Free Style Rythm.mp3", "sounds/Free Style Rythm.ogg","images/FREESTYLE.png", "#d47c76");
+    AddSound( "sounds/Sequence 01.mp3", "sounds/Sequence 01","images/cymbals.png", "#8c536d");
+    AddSound( "sounds/tar short.mp3", "sounds/tar short.mp3","images/saz.png", "#6f366c");
+    RunSoundBox();
+    Controller();
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: CircularProBook;
+    src: url(../fonts/CircularPro-Book.otf);
+}
+@font-face {
+    font-family: CircularProBold;
+    src: url(../fonts/CircularPro-Bold.otf);
+}
+html, body{
+	padding: 0px;
+	margin: 0px;
+	height:100%;
+}
+body{
+    -webkit-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: CircularProBook;
+	background-color: #1d0f30;
+    display: relative;
+    color: white;
+}
+#wrapper {
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 99999999;
+}
+#wrapper header{
+    padding-top: 100px;
+    position: relative;
+}
+#mute-button{
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 17px;
+    height: 28px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    z-index: 99999999;
+}
+#mute-button.play{
+    background-image: url(../images/play-icon.png);
+}
+#mute-button.pause{
+    background-image: url(../images/pause-icon.png);
+}
+a#logo{
+    z-index: 99999999;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 100px;    
+    width: 67px;
+    height: 48px;
+    font-size: 10px;
+    text-align: center;
+    background-image: url(../images/turkey-logo.png);
+}
+#wellcome{ 
+     position: relative;
+     text-align: center;
+     font-size: 22px;
+}
+#wrapper h1{
+    margin: 0px;
+    font-family: CircularProBold;
+    position: relative;
+    margin-top: 25px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+#info{
+    font-size: 22px;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+#instructions{
+    position: absolute;
+    text-align: center;
+    bottom: 100px;
+    width: 100%;
+    z-index: 999999999;
+}
