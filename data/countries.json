@@ -5,7 +5,7 @@
     "ogg": "ogg",
     "country": "Denmark",
     "title": "Hyggelish",
-    "url": "mini_sites/Denmark/",
+    "url": "./projects/Denmark/index.html",
     "info": "An isometric three dimensional typeface inspired by Danish industrial design and the modularity of Lego. Explore the playful interactive lexicon of Danish words and&nbsp;expressions.",
     "by": "Ruti Zaslavsky &amp; Inbar Even Zur"
 }, {
@@ -25,7 +25,7 @@
     "ogg": "",
     "country": "Morocco",
     "title": "Oumaima",
-    "url": "projects/Morocco.mp4",
+    "url": "./projects/Morocco.mp4",
     "info": "Animated graphics created from particles of sand and inspired by Moroccan tradition convey the story of a teenage girl. Surf through Islam, gender and&nbsp;tradition.",
     "by": "Daniel Barash &amp; Ori Zinger"
 }, {
@@ -85,7 +85,7 @@
     "ogg": "",
     "country": "Brazil",
     "title": "Made in Brazil",
-    "url": "",
+    "url": "./projects/Brazil.mp4",
     "info": "Interactive scroll of animated collages inspired by Brazil’s geography and natural resources. The gravity of Brazil’s economic crisis is presented in a humoristic&nbsp;way.",
     "by": "Jonathan Grindell &amp; Talya Abel"
 }, {
@@ -95,19 +95,9 @@
     "ogg": "",
     "country": "Portugal",
     "title": "The Ocean's Nation",
-    "url": "",
+    "url": "./projects/Portugal.mp4",
     "info": "Interactive mini site inspired by the seafaring Portuguese history. Discover the chapters of this nautical&nbsp;nation.",
     "by": "Amichai Sheetrit &amp; Elior Karmani"
-}, {
-    "color": "black",
-    "background": "white",
-    "mp4": "videos/Korea-Michal.mp4",
-    "ogg": "",
-    "country": "South Korea",
-    "title": "One day in Seoul",
-    "url": "",
-    "info": "Illustration story about the life quality in&nbsp;SK",
-    "by": "Michal Horowitz"
 }, {
     "color": "white",
     "background": "black",
@@ -125,7 +115,7 @@
     "ogg": "",
     "country": "Russia",
     "title": "Kaleidoscope",
-    "url": "",
+    "url": "./projects/Russia.mp4",
     "info": "Video art and motion graphics inspired by geometric shapes formed by figure skating. Kaleidoscope mirrors the discipline and determination of nine famous Russian&nbsp;athletes.",
     "by": "Guy Kaminer &amp; Nina Gronove"
 }, {
@@ -134,8 +124,8 @@
     "mp4": "videos/Italy.mp4",
     "ogg": "",
     "country": "Italy",
-    "title": "\"CHE BELLA!\"",
-    "url": "",
+    "title": "CHE BELLA!",
+    "url": "./projects/Italy.mp4",
     "info": "Video clip inspired by Italy’s hypocrisy and corruption. CHE&nbsp;BELLA features the contrast between the stagnating economy and organized crime versus Italy the cultural superpower famous for its art, music, fashion, and iconic&nbsp;food.",
     "by": "Avi Orbuch, Tami Wood Antel"
 }, {
@@ -145,7 +135,7 @@
     "ogg": "",
     "country": "Mexico",
     "title": "Flame",
-    "url": "",
+    "url": "./projects/Mexico.mp4",
     "info": "Video clip inspired by the ‘heat’ of Mexican culture. Flame is a collection of short cuts (commercials, homemade videos and other materials) accessible online from searching the term ‘Mexico’. The temperament of the people, spicy food, violence and corruption are encapsulated into a split second, blurring the borders between cliché and&nbsp;truth.",
     "by": "Fanny Hertz &amp; Laura Benhini"
 }, {
@@ -155,7 +145,7 @@
     "ogg": "",
     "country": "South Korea",
     "title": "Tiger Economy",
-    "url": "",
+    "url": "./projects/Korea-Tali.mp4",
     "info": "Motion graphics inspired by the Korean legacy of education and focus on innovation. Tiger&nbsp;economy reflects how traditional expressions transform into distinctive urban&nbsp;lifestyle.",
     "by": "Tali Bogdanovski"
 }, {
@@ -165,7 +155,7 @@
     "ogg": "",
     "country": "Greece",
     "title": "Nephele",
-    "url": "",
+    "url": "./projects/Greece-Lee.mp4",
     "info": "Motion graphics inspired by Plato’s concept of duality. Nephele magnifies iconic objects and their cultural&nbsp;paradox.",
     "by": "Lee David"
 }, {
