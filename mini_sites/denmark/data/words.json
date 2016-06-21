@@ -1,0 +1,767 @@
+{
+	"words": [{
+		"letter": "A",
+		"word": "AKVAVIT",
+		"term": "'Water of life', Scandinavian liquor made in Aalborg, Denmark. <br> Brewed from either grains or potatoes, always served iskold. <br> What is iskold you ask? Press I to learn",
+		"imgnum": "7",
+		"images": [{
+				"index": "0",
+				"src": "images/a.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ak.jpg"
+			}, {
+				"index": "2",
+				"src": "images/akv.jpg"
+			}, {
+				"index": "3",
+				"src": "images/akva.jpg"
+			}, {
+				"index": "4",
+				"src": "images/akvav.jpg"
+			}, {
+				"index": "5",
+				"src": "images/akvavi.jpg"
+			}, {
+				"index": "6",
+				"src": "images/akvavit.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "B",
+		"word": "BAE",
+		"term": "To non-Danish speakers this might look like a version of “babe” <br> or “before anyone else”, but in Danish Bae actually means ... poop. So be careful!",
+		"imgnum": "3",
+		"images": [{
+				"index": "0",
+				"src": "images/b.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ba.jpg"
+			}, {
+				"index": "2",
+				"src": "images/BAE.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "C",
+		"word": "CHEF",
+		"term": "Do not be fooled! In Danish, “chef” means “boss”. <br> Must be slightly confusing if you work in a restaurant...",
+		"imgnum": "4",
+		"images": [{
+			"index": "0",
+			"src": "images/c.jpg"
+		}, {
+			"index": "1",
+			"src": "images/ch.jpg"
+		}, {
+			"index": "2",
+			"src": "images/che.jpg"
+		}, {
+			"index": "3",
+			"src": "images/chef.jpg"
+		}],
+		"color" : "#feff59"
+	}, {
+		"letter": "D",
+		"word": "DANNEBROG",
+		"term": "The flag of Denmark. Yup, it has a name! <br> How cool is that?",
+		"imgnum": "9",
+		"images": [{
+				"index": "0",
+				"src": "images/d.jpg"
+			}, {
+				"index": "1",
+				"src": "images/da.jpg"
+			}, {
+				"index": "2",
+				"src": "images/dan.jpg"
+			}, {
+				"index": "3",
+				"src": "images/dann.jpg"
+			}, {
+				"index": "4",
+				"src": "images/danne.jpg"
+			}, {
+				"index": "5",
+				"src": "images/danneb.jpg"
+			}, {
+				"index": "6",
+				"src": "images/dannebr.jpg"
+			}, {
+				"index": "7",
+				"src": "images/dannebro.jpg"
+			}, {
+				"index": "8",
+				"src": "images/DANNEBROG.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "E",
+		"word": "ELFENBEN",
+		"term": "Do you remember the golden haired elves from Lord of the Rings? <br> Well, it appears that “elfenben” means ivory. A nice trick to memorize this one, right?",
+		"imgnum": "8",
+		"images": [{
+				"index": "0",
+				"src": "images/e.jpg"
+			}, {
+				"index": "1",
+				"src": "images/el.jpg"
+			}, {
+				"index": "2",
+				"src": "images/elf.jpg"
+			}, {
+				"index": "3",
+				"src": "images/elfe.jpg"
+			}, {
+				"index": "4",
+				"src": "images/elfen.jpg"
+			}, {
+				"index": "5",
+				"src": "images/elfenb.jpg"
+			}, {
+				"index": "6",
+				"src": "images/elfenbe.jpg"
+			}, {
+				"index": "7",
+				"src": "images/Elfenben.jpg"
+			}
+
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "F",
+		"word": "FLIMMERKASSE",
+		"term": "“Flickering Box”, Danish slang word for TV. <br> Sums up the essence of television pretty accurately.",
+		"imgnum": "12",
+		"images": [{
+			"index": "0",
+			"src": "images/f.jpg"
+		}, {
+			"index": "1",
+			"src": "images/fl.jpg"
+		}, {
+			"index": "2",
+			"src": "images/fli.jpg"
+		}, {
+			"index": "3",
+			"src": "images/flim.jpg"
+		}, {
+			"index": "4",
+			"src": "images/flimm.jpg"
+		}, {
+			"index": "5",
+			"src": "images/flimme.jpg"
+		}, {
+			"index": "6",
+			"src": "images/flimmer.jpg"
+		}, {
+			"index": "7",
+			"src": "images/flimmerk.jpg"
+		}, {
+			"index": "8",
+			"src": "images/flimmerka.jpg"
+		}, {
+			"index": "9",
+			"src": "images/flimmerkas.jpg"
+		}, {
+			"index": "10",
+			"src": "images/flimmerkass.jpg"
+		}, {
+			"index": "11",
+			"src": "images/flimmerkasse.jpg"
+		}],
+		"color" : "#71d7d9"
+	}, {
+		"letter": "G",
+		"word": "GULEROD",
+		"term": "Well, Gulerod is translated as “carrot” or “finger” <br> but can be used as an incentive.",
+		"imgnum": "7",
+		"images": [{
+			"index": "0",
+			"src": "images/g.jpg"
+		}, {
+			"index": "1",
+			"src": "images/gu.jpg"
+		}, {
+			"index": "2",
+			"src": "images/gul.jpg"
+		}, {
+			"index": "3",
+			"src": "images/gule.jpg"
+		}, {
+			"index": "4",
+			"src": "images/guler.jpg"
+		}, {
+			"index": "5",
+			"src": "images/gulero.jpg"
+		}, {
+			"index": "6",
+			"src": "images/gulerod.jpg"
+		}],
+		"color" : "#74d4d2"
+	}, {
+		"letter": "H",
+		"word": "HYGGELIG",
+		"term": "Refers to the warm state of relaxation. Some translate it as 'cosy', <br> which is probably the closest English word to hygge.",
+		"imgnum": "8",
+		"images": [{
+				"index": "0",
+				"src": "images/h.jpg"
+			}, {
+				"index": "1",
+				"src": "images/hy.jpg"
+			}, {
+				"index": "2",
+				"src": "images/hyg.jpg"
+			}, {
+				"index": "3",
+				"src": "images/hygg.jpg"
+			}, {
+				"index": "4",
+				"src": "images/hygge.jpg"
+			}, {
+				"index": "5",
+				"src": "images/hyggel.jpg"
+			}, {
+				"index": "6",
+				"src": "images/hyggeli.jpg"
+			}, {
+				"index": "7",
+				"src": "images/hyggelig.jpg"
+			}
+
+		],
+		"color" : "#75c5c5"
+	}, {
+		"letter": "I",
+		"word": "ISKOLD",
+		"term": "Iskold Pronounced “ees­kold”, iskold is one word for “ice­cold”. <br> It “is cold”, indeed.",
+		"imgnum": "6",
+		"images": [{
+			"index": "0",
+			"src": "images/i.jpg"
+		}, {
+			"index": "1",
+			"src": "images/is.jpg"
+		}, {
+			"index": "2",
+			"src": "images/isk.jpg"
+		}, {
+			"index": "3",
+			"src": "images/isko.jpg"
+		}, {
+			"index": "4",
+			"src": "images/iskol.jpg"
+		}, {
+			"index": "5",
+			"src": "images/iskold.jpg"
+		}],
+		"color" : "#feff59"
+	}, {
+		"letter": "J",
+		"word": "JULEOL",
+		"term": "Is a special Christmas beer in Denmark, but it is not only special <br> but has its own holiday: the J-Day! Which is a day, to drink the J.",
+		"imgnum": "6",
+		"images": [{
+			"index": "0",
+			"src": "images/j.jpg"
+		}, {
+			"index": "1",
+			"src": "images/ju.jpg"
+		}, {
+			"index": "2",
+			"src": "images/jul.jpg"
+		}, {
+			"index": "3",
+			"src": "images/jule.jpg"
+		}, {
+			"index": "4",
+			"src": "images/juleo.jpg"
+		}, {
+			"index": "5",
+			"src": "images/juleol.jpg"
+		}],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "K",
+		"word": "KONG",
+		"term": "King. Does this have anything to do with the movie King­Kong? Not at all, <br> just a mere coincidence. But now you will remember that word for sure!",
+		"imgnum": "4",
+		"images": [{
+				"index": "0",
+				"src": "images/k.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ko.jpg"
+			}, {
+				"index": "2",
+				"src": "images/kon.jpg"
+			}, {
+				"index": "3",
+				"src": "images/kong.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "L",
+		"word": "LAKRIDS",
+		"term": "Licorice is the favorite Danish candy, it's unique flavor comes from a root juice. <br> The names origins are from the Old French “licoresse” which means “swett root”.",
+		"imgnum": "7",
+		"images": [{
+				"index": "0",
+				"src": "images/l.jpg"
+			}, {
+				"index": "1",
+				"src": "images/la.jpg"
+			}, {
+				"index": "2",
+				"src": "images/lak.jpg"
+			}, {
+				"index": "3",
+				"src": "images/lakr.jpg"
+			}, {
+				"index": "4",
+				"src": "images/lakri.jpg"
+			}, {
+				"index": "5",
+				"src": "images/lakrid.jpg"
+			}, {
+				"index": "6",
+				"src": "images/Lakrids.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "M",
+		"word": "MYCELLA",
+		"term": "This beautiful word is not a medieval name of a Nordic maiden, <br> but of a blue­veined. creamy Danish cheese.",
+		"imgnum": "7",
+		"images": [{
+			"index": "0",
+			"src": "images/m.jpg"
+		}, {
+			"index": "1",
+			"src": "images/my.jpg"
+		}, {
+			"index": "2",
+			"src": "images/myc.jpg"
+		}, {
+			"index": "3",
+			"src": "images/myce.jpg"
+		}, {
+			"index": "4",
+			"src": "images/mycel.jpg"
+		}, {
+			"index": "5",
+			"src": "images/mycell.jpg"
+		}, {
+			"index": "6",
+			"src": "images/mycella.jpg"
+		}],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "N",
+		"word": "NA",
+		"term": "(Nå) is probably the most versatile two-letter word ever: <br> “I hear you, go on”, “give it a break” And the list goes on...",
+		"imgnum": "2",
+		"images": [{
+			"index": "0",
+			"src": "images/n.jpg"
+		}, {
+			"index": "1",
+			"src": "images/na.jpg"
+		}],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "O",
+		"word": "ORKE",
+		"term": "Translated as “have the strength” and used when you don't have the <br> strength to do something and are not willing or bothered to do it",
+		"imgnum": "4",
+		"images": [{
+			"index": "0",
+			"src": "images/o.jpg"
+		}, {
+			"index": "1",
+			"src": "images/or.jpg"
+		}, {
+			"index": "2",
+			"src": "images/ork.jpg"
+		}, {
+			"index": "3",
+			"src": "images/orke.jpg"
+		}],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "P",
+		"word": "PUBBELOEB",
+		"term": "'On the amount?' the question asking whether you want to withdraw cash <br> with your purchase or just charge the purchase to your credit card",
+		"imgnum": "9",
+		"images": [{
+				"index": "0",
+				"src": "images/p.jpg"
+			}, {
+				"index": "1",
+				"src": "images/pu.jpg"
+			}, {
+				"index": "2",
+				"src": "images/pub.jpg"
+			}, {
+				"index": "3",
+				"src": "images/pubb.jpg"
+			}, {
+				"index": "4",
+				"src": "images/pubbe.jpg"
+			}, {
+				"index": "5",
+				"src": "images/pubbel.jpg"
+			}, {
+				"index": "6",
+				"src": "images/pubbelo.jpg"
+			}, {
+				"index": "7",
+				"src": "images/pubbeloe.jpg"
+			}, {
+				"index": "9",
+				"src": "images/pubbeloeb.jpg"
+			}
+
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "Q",
+		"word": "QVINDE",
+		"term": "The only Danish word that begins with Q, and it means <br> “female” or “woman”. We are not even surprised",
+		"imgnum": "6",
+		"images": [{
+				"index": "0",
+				"src": "images/Q.jpg"
+			}, {
+				"index": "1",
+				"src": "images/qv.jpg"
+			}, {
+				"index": "2",
+				"src": "images/qvi.jpg"
+			}, {
+				"index": "3",
+				"src": "images/qvin.jpg"
+			}, {
+				"index": "4",
+				"src": "images/qvind.jpg"
+			}, {
+				"index": "5",
+				"src": "images/Qvinde.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "R",
+		"word": "RISENGROD",
+		"term": "You can rarely find rice in the traditional Danish kitchen, which makes risengrod <br> very special. It's a sweet Christmas treat – rice pudding with a hidden lucky almond.",
+		"imgnum": "9",
+		"images": [{
+				"index": "0",
+				"src": "images/r.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ri.jpg"
+			}, {
+				"index": "2",
+				"src": "images/ris.jpg"
+			}, {
+				"index": "3",
+				"src": "images/rise.jpg"
+			}, {
+				"index": "4",
+				"src": "images/risen.jpg"
+			}, {
+				"index": "5",
+				"src": "images/riseng.jpg"
+			}, {
+				"index": "6",
+				"src": "images/risengr.jpg"
+			}, {
+				"index": "7",
+				"src": "images/risengro.jpg"
+			}, {
+				"index": "8",
+				"src": "images/risengrod.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "S",
+		"word": "SYG",
+		"term": "Literally means “sick” or “ill”, but in slang it <br> means cool. Like “wicked” in English",
+		"imgnum": "3",
+		"images": [{
+				"index": "0",
+				"src": "images/s.jpg"
+			}, {
+				"index": "1",
+				"src": "images/sy.jpg"
+			}, {
+				"index": "2",
+				"src": "images/syg.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "T",
+		"word": "TARG FUHKARF!",
+		"term": "Thanks for the coffee! Used not only to thank for coffee but also to express surprise ('wow')",
+		"imgnum": "12",
+		"images": [{
+				"index": "0",
+				"src": "images/t.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ta.jpg"
+			}, {
+				"index": "2",
+				"src": "images/tar.jpg"
+			}, {
+				"index": "3",
+				"src": "images/targ.jpg"
+			}, {
+				"index": "4",
+				"src": "images/targ-.jpg"
+			}, {
+				"index": "5",
+				"src": "images/targ f.jpg"
+			}, {
+				"index": "6",
+				"src": "images/targ fu.jpg"
+			}, {
+				"index": "7",
+				"src": "images/targ fuh.jpg"
+			}, {
+				"index": "8",
+				"src": "images/targ fuhk.jpg"
+			}, {
+				"index": "9",
+				"src": "images/targ fuhka.jpg"
+			}, {
+				"index": "10",
+				"src": "images/targ fuhkar.jpg"
+			}, {
+				"index": "11",
+				"src": "images/targ fuhkarf.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "U",
+		"word": "UGIFT",
+		"term": "While it sounds like some sort of a web-gifting-service,<br> Ugift ironically means 'single'",
+		"imgnum": "5",
+		"images": [{
+				"index": "0",
+				"src": "images/u.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ug.jpg"
+			}, {
+				"index": "2",
+				"src": "images/ugi.jpg"
+			}, {
+				"index": "3",
+				"src": "images/ugif.jpg"
+			}, {
+				"index": "4",
+				"src": "images/ugift.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "V",
+		"word": "VELBEKOMME",
+		"term": "That one is very handy and useful . It means both Bon appetite and you are welcome",
+		"imgnum": "10",
+		"images": [{
+				"index": "0",
+				"src": "images/V.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ve.jpg"
+			}, {
+				"index": "2",
+				"src": "images/vel.jpg"
+			}, {
+				"index": "3",
+				"src": "images/velb.jpg"
+			}, {
+				"index": "4",
+				"src": "images/velbe.jpg"
+			}, {
+				"index": "5",
+				"src": "images/Velbek.jpg"
+			}, {
+				"index": "6",
+				"src": "images/Velbeko.jpg"
+			}, {
+				"index": "7",
+				"src": "images/Velbekom.jpg"
+			}, {
+				"index": "8",
+				"src": "images/Velbekomm.jpg"
+			}, {
+				"index": "9",
+				"src": "images/Velbekomme.jpg"
+			}
+
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "W",
+		"word": "WIENERBRØD",
+		"term": "Danish pastry,  literally means “Viennese bread ”. Why? The technique in which the pastry is <br> made was brought to Denmark by an Austrian baker. It's a small world after all, huh.",
+		"imgnum": "10",
+		"images": [{
+				"index": "0",
+				"src": "images/W.jpg"
+			}, {
+				"index": "1",
+				"src": "images/Wi.jpg"
+			}, {
+				"index": "2",
+				"src": "images/wie.jpg"
+			}, {
+				"index": "3",
+				"src": "images/wien.jpg"
+			}, {
+				"index": "4",
+				"src": "images/Wiene.jpg"
+			}, {
+				"index": "5",
+				"src": "images/wiener.jpg"
+			}, {
+				"index": "6",
+				"src": "images/Wienerb.jpg"
+			}, {
+				"index": "7",
+				"src": "images/Wienerbr.jpg"
+			}, {
+				"index": "8",
+				"src": "images/Wienerbro.jpg"
+			}, {
+				"index": "9",
+				"src": "images/Wienerbrod.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "X",
+		"word": "X",
+		"term": "No native Danish words in X, apparently....",
+		"imgnum": "8",
+		"images": [{
+				"index": "0",
+				"src": "images/x1.jpg"
+			}, {
+				"index": "1",
+				"src": "images/X2.jpg"
+			}, {
+				"index": "2",
+				"src": "images/X3.jpg"
+			}, {
+				"index": "3",
+				"src": "images/X4.jpg"
+			}, {
+				"index": "4",
+				"src": "images/X5.jpg"
+			}, {
+				"index": "5",
+				"src": "images/X6.jpg"
+			}, {
+				"index": "6",
+				"src": "images/X7.jpg"
+			}, {
+				"index": "7",
+				"src": "images/X8.jpg"
+			}
+
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "Y",
+		"word": "YNDLINGSFARVE",
+		"term": "Favorite color. Important matters need to have a special word, indeed",
+		"imgnum": "13",
+		"images": [{
+				"index": "0",
+				"src": "images/Y.jpg"
+			}, {
+				"index": "1",
+				"src": "images/yn.jpg"
+			}, {
+				"index": "2",
+				"src": "images/ynd.jpg"
+			}, {
+				"index": "3",
+				"src": "images/yndl.jpg"
+			}, {
+				"index": "4",
+				"src": "images/yndli.jpg"
+			}, {
+				"index": "5",
+				"src": "images/Yndlin.jpg"
+			}, {
+				"index": "6",
+				"src": "images/Yndling.jpg"
+			}, {
+				"index": "7",
+				"src": "images/Yndlings.jpg"
+			}, {
+				"index": "8",
+				"src": "images/Yndlingsf.jpg"
+			}, {
+				"index": "9",
+				"src": "images/Yndlingsfa.jpg"
+			}, {
+				"index": "10",
+				"src": "images/Yndlingsfar.jpg"
+			}, {
+				"index": "11",
+				"src": "images/Yndlingsfarv.jpg"
+			}, {
+				"index": "12",
+				"src": "images/Yndlingsfarve.jpg"
+			}
+
+		],
+		"color" : "#71cfd0"
+	}, {
+		"letter": "Z",
+		"word": "ZEALAND",
+		"term": "Not only the Lego is modular in Denmark, the land is also like a puzzle. <br> There are about 406 islands in Denmark , and only around 70 ore populated. <br> Zealand is the most populated of them",
+		"imgnum": "7",
+		"images": [{
+				"index": "0",
+				"src": "images/z.jpg"
+			}, {
+				"index": "1",
+				"src": "images/ze.jpg"
+			}, {
+				"index": "2",
+				"src": "images/zea.jpg"
+			}, {
+				"index": "3",
+				"src": "images/zeal.jpg"
+			}, {
+				"index": "4",
+				"src": "images/zeala.jpg"
+			}, {
+				"index": "5",
+				"src": "images/zealan.jpg"
+			}, {
+				"index": "6",
+				"src": "images/zealand.jpg"
+			}
+		],
+		"color" : "#71cfd0"
+	}]
+}

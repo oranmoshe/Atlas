@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header, nav, main, section, ul {
+    display: block;
+}
+
+body {
+    background: #79d9d7;
+    font-family: 'open sans';
+    color: #ffffff;
+}
+
+#indexBody{
+	background-image: url("../images/hyggelish first screen.jpg"); 
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+nav {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+#indexNav {
+    font-weight: normal; 
+}
+
+.alert {
+    background: url('../images/key2.png') no-repeat center center;
+    color: white;
+    margin-bottom: 15px;
+    width: 600px;
+    height: 350px;
+    margin: 0px auto;
+    margin-top: 15%;
+    border: 4px solid #ffffff;
+}
+
+/* The close button */
+.closebtn {
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    float: right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: #3e697a;
+}
+
+#word {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 15%;
+    vertical-align: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+#word2 {
+    font-size: 160px;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 0.03em;
+}
+
+#term {
+    margin: 0px auto;
+    letter-spacing: 0.05em;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 150%;
+    font-weight: lighter;
+    display: none;
+}
+
+#fontDown {
+    float: left;
+    position: absolute;
+    right: 4%;
+}
+
+#hyg {
+    float: left;
+    position: absolute;
+    left: 4%;
+	border-bottom: 1px solid #ffffff;
+}
+
+#centered {
+    margin: 15% auto;
+   	width: 9%;
+    border: 3px solid #ffffff; 
+    padding: 70px 50px 70px 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.typed-cursor{
+    opacity: 0;
+}
+
+.clear {
+    clear: both;
+}
